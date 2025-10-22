@@ -113,11 +113,11 @@ def create_mock_generator():
     # Mock detect_tech_stack
     def mock_detect_tech_stack(repo_full_name, languages):
         tech_map = {
-            'testuser/awesome-project': {'Python', 'Django', 'PostgreSQL'},
-            'testuser/cool-app': {'JavaScript', 'React', 'Next.js', 'Tailwind CSS'},
+            'testuser/awesome-project': {'Python', 'Django', 'PostgreSQL', 'Docker'},
+            'testuser/cool-app': {'JavaScript', 'React', 'Next.js', 'Tailwind CSS', 'Docker'},
             'testuser/data-analyzer': {'Python', 'Pandas', 'NumPy', 'Jupyter Notebook'},
-            'testuser/web-scraper': {'Go', 'Gin', 'GORM'},
-            'testuser/mobile-app': {'TypeScript', 'React', 'React Native'}
+            'testuser/web-scraper': {'Go', 'Gin', 'GORM', 'Docker'},
+            'testuser/mobile-app': {'TypeScript', 'React', 'React Native', 'GitHub Actions'}
         }
         return tech_map.get(repo_full_name, set(languages.keys()))
 

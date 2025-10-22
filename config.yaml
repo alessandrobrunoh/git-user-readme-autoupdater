@@ -50,3 +50,31 @@ top_repos:
   # - 'lines': Select top repos by lines of code only
   # - 'mixed': Mix of stars (60%) and lines (40%)
   strategy: "language_proportional"
+
+# Proficiency Level Configuration (Stricter Requirements)
+proficiency:
+  # Expert level: >= 60% code OR >= 5 projects OR (>= 40% AND >= 6 projects)
+  expert:
+    min_percentage: 60  # Minimum percentage of code
+    min_projects: 5     # Minimum number of projects
+    mixed:              # Or both conditions together
+      percentage: 40
+      projects: 6
+
+  # Advanced level: >= 30% code OR >= 4 projects OR (>= 20% AND >= 5 projects)
+  advanced:
+    min_percentage: 30
+    min_projects: 4
+    mixed:
+      percentage: 20
+      projects: 5
+
+  # Intermediate level: >= 10% code OR >= 3 projects OR (>= 5% AND >= 4 projects)
+  intermediate:
+    min_percentage: 10
+    min_projects: 3
+    mixed:
+      percentage: 5
+      projects: 4
+
+  # Below intermediate = Familiar (📚)

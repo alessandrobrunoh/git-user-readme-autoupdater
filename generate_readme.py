@@ -77,6 +77,34 @@ class GitHubStatsGenerator:
             'top_repos': {
                 'strategy': 'language_proportional',  # or 'stars', 'lines', 'mixed'
                 'count': 5
+            },
+            'proficiency': {
+                # Stricter proficiency requirements
+                'expert': {
+                    'min_percentage': 60,  # >= 60% of code
+                    'min_projects': 5,     # OR >= 5 projects
+                    'mixed': {             # OR (percentage >= X AND projects >= Y)
+                        'percentage': 40,
+                        'projects': 6
+                    }
+                },
+                'advanced': {
+                    'min_percentage': 30,  # >= 30% of code
+                    'min_projects': 4,     # OR >= 4 projects
+                    'mixed': {
+                        'percentage': 20,
+                        'projects': 5
+                    }
+                },
+                'intermediate': {
+                    'min_percentage': 10,  # >= 10% of code
+                    'min_projects': 3,     # OR >= 3 projects
+                    'mixed': {
+                        'percentage': 5,
+                        'projects': 4
+                    }
+                }
+                # < intermediate = Familiar
             }
         }
 
@@ -172,6 +200,9 @@ class GitHubStatsGenerator:
             'pubspec.yaml': self._parse_pubspec,
             'go.mod': self._parse_go_mod,
             'composer.json': self._parse_composer_json,
+            'Dockerfile': self._parse_dockerfile,
+            'docker-compose.yml': self._parse_docker_compose,
+            '.github/workflows/ci.yml': self._parse_github_actions,
         }
 
         # Check each dependency file
@@ -390,6 +421,21 @@ class GitHubStatsGenerator:
 
         return techs
 
+    def _parse_dockerfile(self, content: str) -> Set[str]:
+        """Parse Dockerfile to detect containerization"""
+        techs = {'Docker'}
+        return techs
+
+    def _parse_docker_compose(self, content: str) -> Set[str]:
+        """Parse docker-compose.yml to detect Docker Compose"""
+        techs = {'Docker'}
+        return techs
+
+    def _parse_github_actions(self, content: str) -> Set[str]:
+        """Parse GitHub Actions workflow files"""
+        techs = {'GitHub Actions'}
+        return techs
+
     def get_repo_stats(self, repo: Dict[str, Any], languages: Dict[str, int]) -> Dict[str, Any]:
         """Get detailed statistics for a repository"""
         try:
@@ -547,10 +593,31 @@ class GitHubStatsGenerator:
         total_repos: int,
         total_lines: int
     ) -> Dict[str, Dict[str, Any]]:
-        """Calculate proficiency level for each technology"""
+        """Calculate proficiency level for each technology based on configurable criteria"""
 
         proficiency = {}
         total_bytes = sum(language_stats.values())
+
+        # Get proficiency config (with strict defaults)
+        prof_config = self.config.get('proficiency', {})
+
+        # Expert criteria
+        expert_cfg = prof_config.get('expert', {})
+        expert_min_pct = expert_cfg.get('min_percentage', 60)
+        expert_min_proj = expert_cfg.get('min_projects', 5)
+        expert_mixed = expert_cfg.get('mixed', {'percentage': 40, 'projects': 6})
+
+        # Advanced criteria
+        advanced_cfg = prof_config.get('advanced', {})
+        advanced_min_pct = advanced_cfg.get('min_percentage', 30)
+        advanced_min_proj = advanced_cfg.get('min_projects', 4)
+        advanced_mixed = advanced_cfg.get('mixed', {'percentage': 20, 'projects': 5})
+
+        # Intermediate criteria
+        intermediate_cfg = prof_config.get('intermediate', {})
+        intermediate_min_pct = intermediate_cfg.get('min_percentage', 10)
+        intermediate_min_proj = intermediate_cfg.get('min_projects', 3)
+        intermediate_mixed = intermediate_cfg.get('mixed', {'percentage': 5, 'projects': 4})
 
         for tech, repo_count in tech_repo_count.items():
             # Calculate metrics
@@ -560,17 +627,28 @@ class GitHubStatsGenerator:
 
             lines = tech_lines.get(tech, 0)
 
-            # Determine proficiency level
+            # Determine proficiency level using stricter criteria
             level = "Familiar"
             level_emoji = "📚"
 
-            if percentage >= 50 or repo_count >= 5:
+            # Expert: >= 60% OR >= 5 projects OR (>= 40% AND >= 6 projects)
+            if (percentage >= expert_min_pct or
+                repo_count >= expert_min_proj or
+                (percentage >= expert_mixed['percentage'] and repo_count >= expert_mixed['projects'])):
                 level = "Expert"
                 level_emoji = "🏆"
-            elif percentage >= 20 or repo_count >= 3:
+
+            # Advanced: >= 30% OR >= 4 projects OR (>= 20% AND >= 5 projects)
+            elif (percentage >= advanced_min_pct or
+                  repo_count >= advanced_min_proj or
+                  (percentage >= advanced_mixed['percentage'] and repo_count >= advanced_mixed['projects'])):
                 level = "Advanced"
                 level_emoji = "⭐"
-            elif percentage >= 5 or repo_count >= 2:
+
+            # Intermediate: >= 10% OR >= 3 projects OR (>= 5% AND >= 4 projects)
+            elif (percentage >= intermediate_min_pct or
+                  repo_count >= intermediate_min_proj or
+                  (percentage >= intermediate_mixed['percentage'] and repo_count >= intermediate_mixed['projects'])):
                 level = "Intermediate"
                 level_emoji = "💫"
 
@@ -713,14 +791,51 @@ class GitHubStatsGenerator:
         additional_langs = []
         other_techs = []
 
+        # DevOps/Infrastructure categories
+        devops_categories = {
+            'Containerization': ['Docker', 'Podman', 'containerd'],
+            'Orchestration': ['Kubernetes', 'Docker Swarm', 'Nomad'],
+            'CI/CD': ['GitHub Actions', 'GitLab CI', 'Jenkins', 'CircleCI', 'Travis CI'],
+            'Cloud Platforms': ['AWS', 'Azure', 'GCP', 'DigitalOcean', 'Heroku'],
+            'Infrastructure as Code': ['Terraform', 'Ansible', 'Pulumi', 'CloudFormation'],
+            'Monitoring': ['Prometheus', 'Grafana', 'Datadog', 'New Relic']
+        }
+
+        devops_techs = {cat: [] for cat in devops_categories.keys()}
+        framework_techs = []
+
         for tech, prof in proficiency.items():
             if tech not in lang_emojis:
-                other_techs.append((tech, prof))
+                # Check if it's a DevOps tool
+                is_devops = False
+                for category, tools in devops_categories.items():
+                    if tech in tools:
+                        devops_techs[category].append((tech, prof))
+                        is_devops = True
+                        break
+
+                if not is_devops:
+                    framework_techs.append((tech, prof))
             elif prof['percentage'] < 5 and prof['repo_count'] < 2:
                 additional_langs.append((tech, prof))
 
-        if additional_langs or other_techs:
+        if additional_langs or framework_techs or any(devops_techs.values()):
             md += "### 🛠️ Additional Technologies\n\n"
+
+            # DevOps & Infrastructure section
+            has_devops = any(devops_techs.values())
+            if has_devops:
+                md += "#### 🚀 DevOps & Infrastructure\n\n"
+                for category, techs in devops_techs.items():
+                    if techs:
+                        tech_list = []
+                        for tech, prof in sorted(techs, key=lambda x: x[1]['repo_count'], reverse=True):
+                            level_emoji = prof['emoji']
+                            repo_count = prof['repo_count']
+                            tech_list.append(f"{level_emoji} **{tech}** ({repo_count} project{'s' if repo_count != 1 else ''})")
+
+                        md += f"- **{category}:** {' • '.join(tech_list)}\n"
+                md += "\n"
 
             # Group by category
             if additional_langs:
@@ -738,8 +853,8 @@ class GitHubStatsGenerator:
                     md += ")\n"
                 md += "\n"
 
-            # Show only important other techs (>= 2 repos)
-            important_techs = [(t, p) for t, p in other_techs if p['repo_count'] >= 2]
+            # Show only important framework/library techs (>= 2 repos)
+            important_techs = [(t, p) for t, p in framework_techs if p['repo_count'] >= 2]
             if important_techs:
                 md += "#### ⚡ Tools & Frameworks\n\n"
                 for tech, prof in sorted(important_techs, key=lambda x: x[1]['repo_count'], reverse=True)[:10]:
