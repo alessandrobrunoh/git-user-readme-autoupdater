@@ -20,9 +20,15 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
 
+    # Permessi necessari per pushare sul repository
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
