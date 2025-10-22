@@ -28,3 +28,25 @@ languages:
   exclude:
     # - "HTML"
     - "CSS"
+
+# Tech Stack configuration
+tech_stack:
+  # Add custom technologies/tools manually
+  # These will be displayed alongside auto-detected ones
+  custom:
+    # - "PostgreSQL"
+    # - "Docker"
+    # - "Kubernetes"
+
+# Top Repositories selection configuration
+top_repos:
+  # How many repositories to show
+  count: 5
+
+  # Selection strategy:
+  # - 'language_proportional': Select repos proportionally based on language usage
+  #   (e.g., if Rust is 78%, show ~4 Rust repos and ~1 Java repo)
+  # - 'stars': Select top repos by stars only
+  # - 'lines': Select top repos by lines of code only
+  # - 'mixed': Mix of stars (60%) and lines (40%)
+  strategy: "language_proportional"
