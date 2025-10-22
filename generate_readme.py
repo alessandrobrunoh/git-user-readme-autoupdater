@@ -450,6 +450,8 @@ class GitHubStatsGenerator:
         total_lines = 0
         repo_stats = []
         all_tech_stack = set()
+        tech_repo_count = defaultdict(int)  # Count repos per technology
+        tech_lines = defaultdict(int)  # Lines of code per technology
 
         print(f"Processing {len(repos)} repositories...")
 
@@ -474,6 +476,13 @@ class GitHubStatsGenerator:
             stats = self.get_repo_stats(repo, languages)
             total_lines += stats['total_lines']
 
+            # Track tech usage
+            for tech in tech_stack:
+                tech_repo_count[tech] += 1
+                # For languages, track lines
+                if tech in languages:
+                    tech_lines[tech] += stats['total_lines']
+
             repo_stats.append({
                 'name': repo['name'],
                 'full_name': repo['full_name'],
@@ -483,7 +492,8 @@ class GitHubStatsGenerator:
                 'language': repo.get('language', 'Unknown'),
                 'lines': stats['total_lines'],
                 'url': repo['html_url'],
-                'languages': languages
+                'languages': languages,
+                'tech_stack': tech_stack
             })
 
         # Sort repos by stars first, then by lines of code
@@ -495,6 +505,15 @@ class GitHubStatsGenerator:
         # Add custom tech stack from config
         custom_tech = self.config.get('tech_stack', {}).get('custom', []) or []
         all_tech_stack.update(custom_tech)
+
+        # Calculate tech proficiency
+        tech_proficiency = self._calculate_tech_proficiency(
+            language_stats,
+            tech_repo_count,
+            tech_lines,
+            len(repos),
+            total_lines
+        )
 
         # Select Top N repos based on strategy
         top_repos_config = self.config.get('top_repos', {})
@@ -515,8 +534,221 @@ class GitHubStatsGenerator:
             'top_languages': top_languages,
             'language_stats': dict(language_stats),
             'all_repos': sorted_repos,
-            'tech_stack': sorted(all_tech_stack)
+            'tech_stack': sorted(all_tech_stack),
+            'tech_proficiency': tech_proficiency,
+            'tech_repo_count': dict(tech_repo_count)
         }
+
+    def _calculate_tech_proficiency(
+        self,
+        language_stats: Dict[str, int],
+        tech_repo_count: Dict[str, int],
+        tech_lines: Dict[str, int],
+        total_repos: int,
+        total_lines: int
+    ) -> Dict[str, Dict[str, Any]]:
+        """Calculate proficiency level for each technology"""
+
+        proficiency = {}
+        total_bytes = sum(language_stats.values())
+
+        for tech, repo_count in tech_repo_count.items():
+            # Calculate metrics
+            percentage = 0
+            if tech in language_stats and total_bytes > 0:
+                percentage = (language_stats[tech] / total_bytes) * 100
+
+            lines = tech_lines.get(tech, 0)
+
+            # Determine proficiency level
+            level = "Familiar"
+            level_emoji = "📚"
+
+            if percentage >= 50 or repo_count >= 5:
+                level = "Expert"
+                level_emoji = "🏆"
+            elif percentage >= 20 or repo_count >= 3:
+                level = "Advanced"
+                level_emoji = "⭐"
+            elif percentage >= 5 or repo_count >= 2:
+                level = "Intermediate"
+                level_emoji = "💫"
+
+            proficiency[tech] = {
+                'level': level,
+                'emoji': level_emoji,
+                'percentage': percentage,
+                'repo_count': repo_count,
+                'lines': lines
+            }
+
+        return proficiency
+
+    def _generate_tech_stack_section(self, stats: Dict[str, Any]) -> str:
+        """Generate beautifully formatted tech stack section"""
+
+        md = "## 🚀 Tech Stack\n\n"
+
+        proficiency = stats.get('tech_proficiency', {})
+        tech_repo_count = stats.get('tech_repo_count', {})
+        language_stats = stats.get('language_stats', {})
+        total_bytes = sum(language_stats.values()) if language_stats else 1
+
+        # Language emoji mappings
+        lang_emojis = {
+            'Rust': '🦀',
+            'Java': '☕',
+            'JavaScript': '💛',
+            'TypeScript': '⚛️',
+            'Python': '🐍',
+            'Go': '🔵',
+            'Dart': '🎯',
+            'PHP': '🐘',
+            'Ruby': '💎',
+            'Kotlin': '🟣',
+            'C++': '⚙️',
+            'C#': '💜',
+            'Swift': '🍎',
+            'Jupyter Notebook': '📓'
+        }
+
+        # Framework/tech associations with languages
+        tech_associations = {
+            'Rust': {
+                'Web Frameworks': ['Leptos', 'Dioxus', 'Sycamore', 'Yew'],
+                'Backend': ['Actix Web', 'Actix', 'Axum', 'Rocket', 'Warp', 'Tokio'],
+                'Database': ['Diesel', 'SQLx'],
+                'UI': ['GPUI'],
+                'Tools': ['Serde', 'Clap', 'Rayon', 'Reqwest', 'Hyper']
+            },
+            'Java': {
+                'Spring Ecosystem': ['Spring Boot', 'Spring Framework'],
+                'Enterprise': ['JHipster', 'Hibernate', 'JPA'],
+                'Messaging': ['Apache Kafka'],
+                'Build Tools': ['Maven', 'Gradle'],
+                'Testing': ['JUnit', 'Mockito']
+            },
+            'JavaScript': {
+                'Frontend Frameworks': ['React', 'Vue.js', 'Angular', 'Svelte'],
+                'Meta Frameworks': ['Next.js', 'Nuxt.js'],
+                'Backend': ['Express.js', 'Fastify', 'Koa'],
+                'Build Tools': ['Webpack', 'Vite'],
+                'Testing': ['Jest', 'Cypress', 'Playwright']
+            },
+            'TypeScript': {
+                'Frontend': ['React', 'Vue.js', 'Angular', 'Svelte'],
+                'Meta Frameworks': ['Next.js', 'Nuxt.js'],
+                'Backend': ['NestJS', 'Express.js'],
+                'Database': ['Prisma', 'TypeORM'],
+                'Styling': ['Tailwind CSS', 'Styled Components']
+            },
+            'Python': {
+                'Web Frameworks': ['Django', 'Flask', 'FastAPI'],
+                'Data Science': ['Pandas', 'NumPy', 'Jupyter Notebook'],
+                'ML/AI': ['TensorFlow', 'PyTorch', 'Scikit-learn'],
+                'Database': ['SQLAlchemy'],
+                'Testing': ['Pytest'],
+                'Async': ['aiohttp']
+            },
+            'Go': {
+                'Web Frameworks': ['Gin', 'Echo', 'Fiber', 'Chi'],
+                'Database': ['GORM'],
+                'CLI': ['Cobra']
+            },
+            'Dart': {
+                'UI Framework': ['Flutter'],
+                'State Management': ['Provider', 'Riverpod', 'BLoC', 'GetX'],
+                'Network': ['Dio']
+            },
+            'PHP': {
+                'Frameworks': ['Laravel', 'Symfony']
+            }
+        }
+
+        # Get primary languages (>= 5% or >= 2 repos)
+        primary_langs = []
+        for lang, prof in proficiency.items():
+            if lang in lang_emojis and (prof['percentage'] >= 5 or prof['repo_count'] >= 2):
+                primary_langs.append((lang, prof))
+
+        # Sort by percentage descending
+        primary_langs.sort(key=lambda x: x[1]['percentage'], reverse=True)
+
+        # Display Primary Technologies
+        if primary_langs:
+            md += "### ⭐ Primary Technologies\n\n"
+
+            for lang, prof in primary_langs:
+                emoji = lang_emojis.get(lang, '📦')
+                level_emoji = prof['emoji']
+                level = prof['level']
+                percentage = prof['percentage']
+                repo_count = prof['repo_count']
+
+                md += f"#### {emoji} {lang} ({level_emoji} {level}"
+                if percentage > 0:
+                    md += f" - {percentage:.1f}%"
+                if repo_count > 0:
+                    md += f" | {repo_count} project{'s' if repo_count != 1 else ''}"
+                md += ")\n\n"
+
+                # Find associated technologies
+                if lang in tech_associations:
+                    found_any = False
+                    for category, techs in tech_associations[lang].items():
+                        # Filter to only show techs we actually use
+                        used_techs = [t for t in techs if t in proficiency or t in tech_repo_count]
+                        if used_techs:
+                            md += f"- **{category}:** {' • '.join(used_techs)}\n"
+                            found_any = True
+
+                    if found_any:
+                        md += "\n"
+                    else:
+                        md += "\n"
+                else:
+                    md += "\n"
+
+        # Additional Technologies (< 5% but still present)
+        additional_langs = []
+        other_techs = []
+
+        for tech, prof in proficiency.items():
+            if tech not in lang_emojis:
+                other_techs.append((tech, prof))
+            elif prof['percentage'] < 5 and prof['repo_count'] < 2:
+                additional_langs.append((tech, prof))
+
+        if additional_langs or other_techs:
+            md += "### 🛠️ Additional Technologies\n\n"
+
+            # Group by category
+            if additional_langs:
+                md += "#### 🌐 Other Languages\n\n"
+                for lang, prof in sorted(additional_langs, key=lambda x: x[1]['percentage'], reverse=True):
+                    emoji = lang_emojis.get(lang, '📦')
+                    level_emoji = prof['emoji']
+                    percentage = prof['percentage']
+                    repo_count = prof['repo_count']
+                    md += f"- {emoji} **{lang}** ({level_emoji}"
+                    if percentage > 0:
+                        md += f" {percentage:.1f}%"
+                    if repo_count > 0:
+                        md += f" | {repo_count} project{'s' if repo_count != 1 else ''}"
+                    md += ")\n"
+                md += "\n"
+
+            # Show only important other techs (>= 2 repos)
+            important_techs = [(t, p) for t, p in other_techs if p['repo_count'] >= 2]
+            if important_techs:
+                md += "#### ⚡ Tools & Frameworks\n\n"
+                for tech, prof in sorted(important_techs, key=lambda x: x[1]['repo_count'], reverse=True)[:10]:
+                    level_emoji = prof['emoji']
+                    repo_count = prof['repo_count']
+                    md += f"- {level_emoji} **{tech}** ({repo_count} project{'s' if repo_count != 1 else ''})\n"
+                md += "\n"
+
+        return md
 
     def _select_top_repos(
         self,
@@ -655,39 +887,7 @@ class GitHubStatsGenerator:
 
         # Tech Stack section (BEFORE GitHub Statistics)
         if stats.get('tech_stack'):
-            md += "## 🛠️ Technologies & Tools\n\n"
-
-            tech_stack = stats['tech_stack']
-
-            # Categorize technologies
-            categories = {
-                'Languages': ['Rust', 'Java', 'JavaScript', 'TypeScript', 'Python', 'Go', 'Dart', 'Kotlin', 'PHP', 'Ruby', 'C++', 'C#'],
-                'Frameworks & Libraries': ['React', 'Vue.js', 'Angular', 'Svelte', 'Next.js', 'Nuxt.js', 'Spring Boot', 'Spring Framework', 'Django', 'Flask', 'FastAPI', 'Express.js', 'NestJS', 'Fastify', 'Actix Web', 'Axum', 'Rocket', 'Tokio', 'Gin', 'Echo', 'Fiber', 'Laravel', 'Symfony', 'Flutter'],
-                'Databases & ORMs': ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Diesel', 'SQLx', 'Prisma', 'TypeORM', 'Sequelize', 'Mongoose', 'Hibernate', 'GORM', 'SQLAlchemy'],
-                'Tools & Build Systems': ['Maven', 'Gradle', 'Webpack', 'Vite', 'Docker', 'Kubernetes'],
-                'Testing': ['Jest', 'Vitest', 'Pytest', 'JUnit', 'Cypress', 'Playwright', 'Mockito'],
-                'Other': []
-            }
-
-            categorized = {cat: [] for cat in categories.keys()}
-
-            for tech in tech_stack:
-                placed = False
-                for cat, cat_techs in categories.items():
-                    if cat != 'Other' and tech in cat_techs:
-                        categorized[cat].append(tech)
-                        placed = True
-                        break
-                if not placed:
-                    categorized['Other'].append(tech)
-
-            # Display categorized tech stack
-            for category, techs in categorized.items():
-                if techs:
-                    md += f"**{category}:**  \n"
-                    tech_badges = ' • '.join(f"`{tech}`" for tech in sorted(techs))
-                    md += f"{tech_badges}\n\n"
-
+            md += self._generate_tech_stack_section(stats)
             md += "---\n\n"
 
         md += "## 📊 GitHub Statistics\n\n"
