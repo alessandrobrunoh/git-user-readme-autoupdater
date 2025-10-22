@@ -2,7 +2,7 @@
 # Copy this file to config.yaml and customize it
 
 profile:
-  name: "John Doe"
+  name: "Alessandro Bruno"
   description: |
     Full Stack Developer | Open Source Enthusiast | Tech Blogger
     Building the future, one commit at a time.
@@ -10,15 +10,15 @@ profile:
 repositories:
   # Repositories to include (e.g., contributions to external projects)
   include:
-    - "octocat/Hello-World"
+    # - "octocat/Hello-World"
 
   # Repositories to exclude from your profile
   exclude:
-    - "yourusername/test-repo"
-    - "yourusername/old-experiment"
+    # - "yourusername/test-repo"
+    # - "yourusername/old-experiment"
 
 languages:
   # Languages to exclude from statistics
   exclude:
-    - "HTML"
+    # - "HTML"
     - "CSS"
