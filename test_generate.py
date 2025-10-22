@@ -94,8 +94,8 @@ def create_mock_generator():
         }
         return languages_map.get(repo_full_name, {})
 
-    # Mock stats
-    def mock_get_repo_stats(repo):
+    # Mock stats (needs languages parameter now)
+    def mock_get_repo_stats(repo, languages):
         lines_map = {
             'testuser/awesome-project': 5000,
             'testuser/cool-app': 3500,

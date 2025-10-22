@@ -17,6 +17,12 @@ repositories:
     # - "yourusername/test-repo"
     # - "yourusername/old-experiment"
 
+  # Pin specific repositories to fixed positions in Top 5
+  # Format: repository-name: position (1-5)
+  pinned:
+    # "my-important-project": 1  # Always show as #1
+    # "another-project": 2       # Always show as #2
+
 languages:
   # Languages to exclude from statistics
   exclude:

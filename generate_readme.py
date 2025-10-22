@@ -132,12 +132,13 @@ class GitHubStatsGenerator:
             print(f"Warning: Could not fetch languages for {repo_full_name}: {e}")
             return {}
 
-    def get_repo_stats(self, repo: Dict[str, Any]) -> Dict[str, Any]:
+    def get_repo_stats(self, repo: Dict[str, Any], languages: Dict[str, int]) -> Dict[str, Any]:
         """Get detailed statistics for a repository"""
         try:
             response = requests.get(
                 f'{self.base_url}/repos/{repo["full_name"]}/stats/code_frequency',
-                headers=self.headers
+                headers=self.headers,
+                timeout=10
             )
 
             total_additions = 0
@@ -155,6 +156,22 @@ class GitHubStatsGenerator:
             elif response.status_code == 202:
                 print(f"Info: Stats being computed for {repo['full_name']}, will be available later")
 
+            # If we got no data or unreasonable data, use languages bytes as fallback
+            # Approximate: 1 byte ≈ 1 character, average ~40 chars per line
+            if total_additions == 0 and languages:
+                total_bytes = sum(languages.values())
+                total_additions = total_bytes // 40  # Rough approximation
+                print(f"Info: Using language bytes approximation for {repo['full_name']}: ~{total_additions:,} lines")
+
+            # Sanity check: if lines > 10 million, it's probably wrong
+            if total_additions > 10_000_000:
+                print(f"Warning: Unrealistic line count ({total_additions:,}) for {repo['full_name']}, using approximation")
+                if languages:
+                    total_bytes = sum(languages.values())
+                    total_additions = total_bytes // 40
+                else:
+                    total_additions = 0
+
             return {
                 'additions': total_additions,
                 'deletions': total_deletions,
@@ -162,6 +179,11 @@ class GitHubStatsGenerator:
             }
         except Exception as e:
             print(f"Warning: Could not fetch stats for {repo['full_name']}: {e}")
+            # Use language bytes as fallback
+            if languages:
+                total_bytes = sum(languages.values())
+                estimated_lines = total_bytes // 40
+                return {'additions': estimated_lines, 'deletions': 0, 'total_lines': estimated_lines}
             return {'additions': 0, 'deletions': 0, 'total_lines': 0}
 
     def calculate_statistics(self, repos: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -184,8 +206,8 @@ class GitHubStatsGenerator:
                 if lang not in excluded_langs:
                     language_stats[lang] += bytes_count
 
-            # Get code stats
-            stats = self.get_repo_stats(repo)
+            # Get code stats (pass languages for fallback calculation)
+            stats = self.get_repo_stats(repo, languages)
             total_lines += stats['total_lines']
 
             repo_stats.append({
@@ -199,8 +221,35 @@ class GitHubStatsGenerator:
                 'url': repo['html_url']
             })
 
-        # Sort repos by stars
-        top_repos = sorted(repo_stats, key=lambda x: x['stars'], reverse=True)[:5]
+        # Sort repos by stars first, then by lines of code
+        sorted_repos = sorted(repo_stats, key=lambda x: (x['stars'], x['lines']), reverse=True)
+
+        # Handle pinned repos
+        pinned = self.config.get('repositories', {}).get('pinned', {}) or {}
+        top_repos = []
+        used_repos = set()
+
+        # First, place pinned repos in their designated positions
+        pinned_positions = {}
+        for repo_name, position in pinned.items():
+            # Find the repo in sorted list
+            for repo in sorted_repos:
+                if repo['name'] == repo_name or repo['full_name'] == repo_name:
+                    pinned_positions[position] = repo
+                    used_repos.add(repo['full_name'])
+                    break
+
+        # Build top 5 with pinned repos in correct positions
+        non_pinned_repos = [r for r in sorted_repos if r['full_name'] not in used_repos]
+        non_pinned_idx = 0
+
+        for pos in range(1, 6):  # Positions 1-5
+            if pos in pinned_positions:
+                top_repos.append(pinned_positions[pos])
+            else:
+                if non_pinned_idx < len(non_pinned_repos):
+                    top_repos.append(non_pinned_repos[non_pinned_idx])
+                    non_pinned_idx += 1
 
         # Sort languages by usage
         top_languages = sorted(language_stats.items(), key=lambda x: x[1], reverse=True)[:5]
@@ -211,7 +260,7 @@ class GitHubStatsGenerator:
             'top_repos': top_repos,
             'top_languages': top_languages,
             'language_stats': dict(language_stats),
-            'all_repos': repo_stats
+            'all_repos': sorted_repos
         }
 
     def generate_markdown(self, user_info: Dict[str, Any], stats: Dict[str, Any]) -> str:
@@ -239,49 +288,43 @@ class GitHubStatsGenerator:
 
 """
 
-        # Top repositories
-        md += "### 🏆 Top 5 Repositories\n\n"
-
-        for i, repo in enumerate(stats['top_repos'], 1):
-            md += f"{i}. **[{repo['name']}]({repo['url']})** - ⭐ {repo['stars']} | 🔱 {repo['forks']}\n"
-            if repo['description']:
-                md += f"   - {repo['description']}\n"
-            md += f"   - 💻 Language: {repo['language']} | 📝 Lines: {repo['lines']:,}\n\n"
-
-        md += "---\n\n"
-
-        # Top languages
-        md += "### 💻 Top 5 Languages\n\n"
+        # Top languages (Tech Stack)
+        md += "### 💻 Tech Stack / Languages\n\n"
 
         total_bytes = sum(bytes_count for _, bytes_count in stats['top_languages'])
 
-        for i, (lang, bytes_count) in enumerate(stats['top_languages'], 1):
-            percentage = (bytes_count / total_bytes * 100) if total_bytes > 0 else 0
-            bar_length = int(percentage / 2)
-            bar = '█' * bar_length + '░' * (50 - bar_length)
-            md += f"{i}. **{lang}** - {percentage:.1f}%\n"
-            md += f"   ```\n   {bar}\n   ```\n\n"
+        if stats['top_languages']:
+            for i, (lang, bytes_count) in enumerate(stats['top_languages'], 1):
+                percentage = (bytes_count / total_bytes * 100) if total_bytes > 0 else 0
+                bar_length = int(percentage / 2)
+                bar = '█' * bar_length + '░' * (50 - bar_length)
+                md += f"{i}. **{lang}** - {percentage:.1f}%\n"
+                md += f"   ```\n   {bar}\n   ```\n\n"
+        else:
+            md += "No language data available.\n\n"
 
         md += "---\n\n"
 
-        # Language distribution chart
-        md += "### 📊 Language Distribution\n\n"
-        md += "| Language | Percentage | Usage |\n"
-        md += "|----------|------------|-------|\n"
+        # Top repositories
+        md += "### 🏆 Top 5 Repositories\n\n"
 
-        for lang, bytes_count in stats['top_languages']:
-            percentage = (bytes_count / total_bytes * 100) if total_bytes > 0 else 0
-            bar = '█' * int(percentage / 5)
-            md += f"| {lang} | {percentage:.1f}% | {bar} |\n"
+        if stats['top_repos']:
+            for i, repo in enumerate(stats['top_repos'], 1):
+                md += f"{i}. **[{repo['name']}]({repo['url']})** - ⭐ {repo['stars']} | 🔱 {repo['forks']}\n"
+                if repo['description']:
+                    md += f"   - {repo['description']}\n"
+                md += f"   - 💻 Language: {repo['language']} | 📝 Lines: {repo['lines']:,}\n\n"
+        else:
+            md += "No repositories available.\n\n"
 
-        md += "\n---\n\n"
+        md += "---\n\n"
 
-        # Recent activity
+        # All repositories
         md += "### 📚 All Repositories\n\n"
         md += "| Repository | Stars | Forks | Language | Lines |\n"
         md += "|------------|-------|-------|----------|-------|\n"
 
-        for repo in sorted(stats['all_repos'], key=lambda x: x['stars'], reverse=True):
+        for repo in stats['all_repos']:  # Already sorted by stars + lines
             md += f"| [{repo['name']}]({repo['url']}) | ⭐ {repo['stars']} | 🔱 {repo['forks']} | {repo['language']} | {repo['lines']:,} |\n"
 
         md += "\n---\n\n"
