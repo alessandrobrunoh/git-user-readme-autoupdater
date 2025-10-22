@@ -1,0 +1,24 @@
+# GitHub Profile README Configuration Example
+# Copy this file to config.yaml and customize it
+
+profile:
+  name: "John Doe"
+  description: |
+    Full Stack Developer | Open Source Enthusiast | Tech Blogger
+    Building the future, one commit at a time.
+
+repositories:
+  # Repositories to include (e.g., contributions to external projects)
+  include:
+    - "octocat/Hello-World"
+
+  # Repositories to exclude from your profile
+  exclude:
+    - "yourusername/test-repo"
+    - "yourusername/old-experiment"
+
+languages:
+  # Languages to exclude from statistics
+  exclude:
+    - "HTML"
+    - "CSS"
