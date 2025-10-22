@@ -39,14 +39,21 @@ class GitHubStatsGenerator:
 
         with open(config_path, 'r') as f:
             if config_path.endswith('.yaml') or config_path.endswith('.yml'):
-                return yaml.safe_load(f)
+                config = yaml.safe_load(f)
             elif config_path.endswith('.json'):
-                return json.load(f)
+                config = json.load(f)
             elif config_path.endswith('.toml'):
                 import toml
-                return toml.load(f)
+                config = toml.load(f)
             else:
                 raise ValueError("Config file must be .yaml, .yml, .json, or .toml")
+
+            # If config is None or empty, use defaults
+            if not config:
+                print(f"Warning: Config file {config_path} is empty. Using defaults.")
+                return self.get_default_config()
+
+            return config
 
     def get_default_config(self) -> Dict[str, Any]:
         """Return default configuration"""
@@ -93,7 +100,8 @@ class GitHubStatsGenerator:
             page += 1
 
         # Add explicitly included repositories
-        for repo_full_name in self.config.get('repositories', {}).get('include', []):
+        included = self.config.get('repositories', {}).get('include', []) or []
+        for repo_full_name in included:
             try:
                 response = requests.get(
                     f'{self.base_url}/repos/{repo_full_name}',
@@ -105,7 +113,8 @@ class GitHubStatsGenerator:
                 print(f"Warning: Could not fetch included repo {repo_full_name}: {e}")
 
         # Filter out excluded repositories
-        excluded = set(self.config.get('repositories', {}).get('exclude', []))
+        excluded = self.config.get('repositories', {}).get('exclude', []) or []
+        excluded = set(excluded)
         repos = [r for r in repos if r['full_name'] not in excluded]
 
         return repos
@@ -136,9 +145,15 @@ class GitHubStatsGenerator:
 
             if response.status_code == 200:
                 stats = response.json()
-                for week_stats in stats:
-                    total_additions += week_stats[1]
-                    total_deletions += abs(week_stats[2])
+                # stats can be None if GitHub is still computing
+                if stats and isinstance(stats, list):
+                    for week_stats in stats:
+                        total_additions += week_stats[1]
+                        total_deletions += abs(week_stats[2])
+                else:
+                    print(f"Info: Stats not yet available for {repo['full_name']} (GitHub is computing)")
+            elif response.status_code == 202:
+                print(f"Info: Stats being computed for {repo['full_name']}, will be available later")
 
             return {
                 'additions': total_additions,
@@ -162,7 +177,8 @@ class GitHubStatsGenerator:
 
             # Get languages
             languages = self.get_repo_languages(repo['full_name'])
-            excluded_langs = set(self.config.get('languages', {}).get('exclude', []))
+            excluded_langs = self.config.get('languages', {}).get('exclude', []) or []
+            excluded_langs = set(excluded_langs)
 
             for lang, bytes_count in languages.items():
                 if lang not in excluded_langs:
@@ -307,8 +323,23 @@ def main():
     try:
         generator = GitHubStatsGenerator(config_file)
         generator.generate(output_file)
+    except ValueError as e:
+        if "GIT_TOKEN" in str(e):
+            print(f"❌ Error: {e}", file=sys.stderr)
+            print("\n📝 How to fix:", file=sys.stderr)
+            print("1. Create a GitHub Personal Access Token:", file=sys.stderr)
+            print("   https://github.com/settings/tokens", file=sys.stderr)
+            print("2. Select scopes: 'repo' and 'read:user'", file=sys.stderr)
+            print("3. Export the token:", file=sys.stderr)
+            print("   export GIT_TOKEN='your_token_here'", file=sys.stderr)
+            print("4. Run the script again\n", file=sys.stderr)
+        else:
+            print(f"❌ Error: {e}", file=sys.stderr)
+        sys.exit(1)
     except Exception as e:
         print(f"❌ Error: {e}", file=sys.stderr)
+        import traceback
+        traceback.print_exc()
         sys.exit(1)
 
 
