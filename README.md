@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 44
-- 📝 **Total Lines of Code**: 1,159,591
+- 📝 **Total Lines of Code**: 1,119,892
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -163,18 +163,18 @@ Building the future, one commit at a time.
 | [Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test) | ⭐ 1 | 🔱 0 | Rust | 119 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
 | [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 829,826 |
-| [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 31,582 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
-| [alessandrobrunoh.github.io](https://github.com/alessandrobrunoh/alessandrobrunoh.github.io) | ⭐ 0 | 🔱 0 | SCSS | 8,080 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
-| [Discord-Bot-Ruby](https://github.com/alessandrobrunoh/Discord-Bot-Ruby) | ⭐ 0 | 🔱 0 | None | 3,785 |
 | [guildkeeper-rs](https://github.com/alessandrobrunoh/guildkeeper-rs) | ⭐ 0 | 🔱 0 | None | 2,696 |
 | [tree-sitter-ftl](https://github.com/alessandrobrunoh/tree-sitter-ftl) | ⭐ 0 | 🔱 0 | C | 2,312 |
 | [RustProject](https://github.com/alessandrobrunoh/RustProject) | ⭐ 0 | 🔱 0 | Rust | 2,127 |
+| [Discord-Bot-Ruby](https://github.com/alessandrobrunoh/Discord-Bot-Ruby) | ⭐ 0 | 🔱 0 | None | 1,973 |
 | [AlbionManagerDiscord](https://github.com/alessandrobrunoh/AlbionManagerDiscord) | ⭐ 0 | 🔱 0 | Rust | 1,352 |
+| [alessandrobrunoh.github.io](https://github.com/alessandrobrunoh/alessandrobrunoh.github.io) | ⭐ 0 | 🔱 0 | SCSS | 1,305 |
 | [git-user-readme-autoupdater](https://github.com/alessandrobrunoh/git-user-readme-autoupdater) | ⭐ 0 | 🔱 0 | Python | 1,208 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
+| [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
 | [Rest-API](https://github.com/alessandrobrunoh/Rest-API) | ⭐ 0 | 🔱 0 | None | 328 |
 | [Discord-Bot](https://github.com/alessandrobrunoh/Discord-Bot) | ⭐ 0 | 🔱 0 | None | 313 |
 | [Web-Site](https://github.com/alessandrobrunoh/Web-Site) | ⭐ 0 | 🔱 0 | None | 313 |
@@ -191,4 +191,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-10-23 01:20:23
+🤖 This profile was automatically updated on 2025-10-24 01:17:32
