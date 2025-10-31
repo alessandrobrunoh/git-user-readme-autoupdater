@@ -8,16 +8,16 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.6% | 18 projects)
+#### 🦀 Rust (🏆 Expert - 73.9% | 18 projects)
 
 - **Backend:** Actix Web • Actix • Tokio
 - **Database:** Diesel
 - **Tools:** Serde • Clap • Rayon • Reqwest • Hyper
 
-#### 📓 Jupyter Notebook (💫 Intermediate - 10.8% | 2 projects)
+#### 📓 Jupyter Notebook (💫 Intermediate - 10.7% | 2 projects)
 
 
-#### ⚛️ TypeScript (🏆 Expert - 5.1% | 8 projects)
+#### ⚛️ TypeScript (🏆 Expert - 5.0% | 8 projects)
 
 - **Frontend:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
@@ -32,7 +32,7 @@ Building the future, one commit at a time.
 - **Build Tools:** Webpack • Vite
 - **Testing:** Jest • Cypress
 
-#### ☕ Java (🏆 Expert - 1.7% | 5 projects)
+#### ☕ Java (🏆 Expert - 1.6% | 5 projects)
 
 - **Spring Ecosystem:** Spring Boot
 - **Enterprise:** JHipster • Hibernate
@@ -70,8 +70,8 @@ Building the future, one commit at a time.
 
 - 🏆 **HTML** (14 projects)
 - 🏆 **SCSS** (10 projects)
-- 🏆 **Shell** (8 projects)
 - 🏆 **CSS** (8 projects)
+- 🏆 **Shell** (8 projects)
 - 🏆 **Serde** (8 projects)
 - 🏆 **Dockerfile** (6 projects)
 - 🏆 **Reqwest** (5 projects)
@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 44
-- 📝 **Total Lines of Code**: 1,119,892
+- 📝 **Total Lines of Code**: 1,132,215
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -94,12 +94,12 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 78.8%
+1. **Rust** - 79.1%
    ```
    ███████████████████████████████████████░░░░░░░░░░░
    ```
 
-2. **Jupyter Notebook** - 11.6%
+2. **Jupyter Notebook** - 11.4%
    ```
    █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -162,7 +162,7 @@ Building the future, one commit at a time.
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test) | ⭐ 1 | 🔱 0 | Rust | 119 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
-| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 829,826 |
+| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 842,149 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
@@ -191,4 +191,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-10-30 01:24:01
+🤖 This profile was automatically updated on 2025-10-31 01:22:32
