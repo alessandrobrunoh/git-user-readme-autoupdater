@@ -8,7 +8,7 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.9% | 18 projects)
+#### 🦀 Rust (🏆 Expert - 74.0% | 18 projects)
 
 - **Backend:** Actix Web • Actix • Tokio
 - **Database:** Diesel
@@ -70,8 +70,8 @@ Building the future, one commit at a time.
 
 - 🏆 **HTML** (14 projects)
 - 🏆 **SCSS** (10 projects)
-- 🏆 **CSS** (8 projects)
 - 🏆 **Shell** (8 projects)
+- 🏆 **CSS** (8 projects)
 - 🏆 **Serde** (8 projects)
 - 🏆 **Dockerfile** (6 projects)
 - 🏆 **Reqwest** (5 projects)
@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 44
-- 📝 **Total Lines of Code**: 1,132,215
+- 📝 **Total Lines of Code**: 1,133,955
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -109,7 +109,7 @@ Building the future, one commit at a time.
    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-4. **JavaScript** - 2.4%
+4. **JavaScript** - 2.3%
    ```
    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -162,7 +162,7 @@ Building the future, one commit at a time.
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test) | ⭐ 1 | 🔱 0 | Rust | 119 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
-| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 842,149 |
+| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 843,889 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
@@ -191,4 +191,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-10-31 01:22:32
+🤖 This profile was automatically updated on 2025-11-01 01:26:38
