@@ -58,7 +58,7 @@ Building the future, one commit at a time.
 #### 🚀 DevOps & Infrastructure
 
 - **Containerization:** 🏆 **Docker** (5 projects)
-- **CI/CD:** 💫 **GitHub Actions** (3 projects)
+- **CI/CD:** 📚 **GitHub Actions** (2 projects)
 
 #### 🌐 Other Languages
 
@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 44
-- 📝 **Total Lines of Code**: 1,133,955
+- 📝 **Total Lines of Code**: 1,134,802
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -162,7 +162,7 @@ Building the future, one commit at a time.
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test) | ⭐ 1 | 🔱 0 | Rust | 119 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
-| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 843,889 |
+| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 844,736 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
@@ -191,4 +191,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-11-01 01:26:38
+🤖 This profile was automatically updated on 2025-11-02 01:27:17
