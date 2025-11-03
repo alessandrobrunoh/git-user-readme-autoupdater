@@ -8,23 +8,23 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 74.0% | 18 projects)
+#### 🦀 Rust (🏆 Expert - 73.6% | 18 projects)
 
 - **Backend:** Actix Web • Actix • Tokio
 - **Database:** Diesel
 - **Tools:** Serde • Clap • Rayon • Reqwest • Hyper
 
-#### 📓 Jupyter Notebook (💫 Intermediate - 10.7% | 2 projects)
+#### 📓 Jupyter Notebook (💫 Intermediate - 10.6% | 2 projects)
 
 
-#### ⚛️ TypeScript (🏆 Expert - 5.0% | 8 projects)
+#### ⚛️ TypeScript (🏆 Expert - 5.4% | 10 projects)
 
 - **Frontend:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
 - **Backend:** Express.js
 - **Styling:** Tailwind CSS
 
-#### 💛 JavaScript (🏆 Expert - 2.2% | 13 projects)
+#### 💛 JavaScript (🏆 Expert - 2.2% | 14 projects)
 
 - **Frontend Frameworks:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
@@ -39,7 +39,7 @@ Building the future, one commit at a time.
 - **Build Tools:** Maven • Gradle
 - **Testing:** JUnit
 
-#### 🐍 Python (🏆 Expert - 0.4% | 6 projects)
+#### 🐍 Python (🏆 Expert - 0.6% | 8 projects)
 
 - **Data Science:** Jupyter Notebook
 - **Async:** aiohttp
@@ -70,10 +70,10 @@ Building the future, one commit at a time.
 
 - 🏆 **HTML** (14 projects)
 - 🏆 **SCSS** (10 projects)
+- 🏆 **CSS** (9 projects)
 - 🏆 **Shell** (8 projects)
-- 🏆 **CSS** (8 projects)
 - 🏆 **Serde** (8 projects)
-- 🏆 **Dockerfile** (6 projects)
+- 🏆 **Dockerfile** (7 projects)
 - 🏆 **Reqwest** (5 projects)
 - ⭐ **Tokio** (4 projects)
 - ⭐ **Batchfile** (4 projects)
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 44
-- 📝 **Total Lines of Code**: 1,134,802
+- 🗂️ **Total Repositories**: 46
+- 📝 **Total Lines of Code**: 1,141,629
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -94,7 +94,7 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 79.1%
+1. **Rust** - 78.8%
    ```
    ███████████████████████████████████████░░░░░░░░░░░
    ```
@@ -104,7 +104,7 @@ Building the future, one commit at a time.
    █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-3. **TypeScript** - 5.4%
+3. **TypeScript** - 5.8%
    ```
    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -114,7 +114,7 @@ Building the future, one commit at a time.
    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-5. **Java** - 1.8%
+5. **Java** - 1.7%
    ```
    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -165,6 +165,7 @@ Building the future, one commit at a time.
 | [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 844,736 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
+| [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
 | [guildkeeper-rs](https://github.com/alessandrobrunoh/guildkeeper-rs) | ⭐ 0 | 🔱 0 | None | 2,696 |
 | [tree-sitter-ftl](https://github.com/alessandrobrunoh/tree-sitter-ftl) | ⭐ 0 | 🔱 0 | C | 2,312 |
@@ -173,6 +174,7 @@ Building the future, one commit at a time.
 | [AlbionManagerDiscord](https://github.com/alessandrobrunoh/AlbionManagerDiscord) | ⭐ 0 | 🔱 0 | Rust | 1,352 |
 | [alessandrobrunoh.github.io](https://github.com/alessandrobrunoh/alessandrobrunoh.github.io) | ⭐ 0 | 🔱 0 | SCSS | 1,305 |
 | [git-user-readme-autoupdater](https://github.com/alessandrobrunoh/git-user-readme-autoupdater) | ⭐ 0 | 🔱 0 | Python | 1,208 |
+| [Gemini](https://github.com/alessandrobrunoh/Gemini) | ⭐ 0 | 🔱 0 | TypeScript | 1,167 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
 | [Rest-API](https://github.com/alessandrobrunoh/Rest-API) | ⭐ 0 | 🔱 0 | None | 328 |
@@ -191,4 +193,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-11-02 01:27:17
+🤖 This profile was automatically updated on 2025-11-03 01:24:44
