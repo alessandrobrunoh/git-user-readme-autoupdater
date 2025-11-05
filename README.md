@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 46
-- 📝 **Total Lines of Code**: 1,141,629
+- 📝 **Total Lines of Code**: 1,145,043
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -94,17 +94,17 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 78.8%
+1. **Rust** - 78.9%
    ```
    ███████████████████████████████████████░░░░░░░░░░░
    ```
 
-2. **Jupyter Notebook** - 11.4%
+2. **Jupyter Notebook** - 11.3%
    ```
    █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-3. **TypeScript** - 5.8%
+3. **TypeScript** - 5.7%
    ```
    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -129,11 +129,11 @@ Building the future, one commit at a time.
 2. **[KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api)** - ⭐ 1 | 🔱 2
    - 💻 Language: Rust | 📝 Lines: 930
 
-3. **[LeptosTest](https://github.com/alessandrobrunoh/LeptosTest)** - ⭐ 1 | 🔱 0
-   - 💻 Language: Rust | 📝 Lines: 273
+3. **[Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test)** - ⭐ 1 | 🔱 0
+   - 💻 Language: Rust | 📝 Lines: 881
 
-4. **[DioxusTest](https://github.com/alessandrobrunoh/DioxusTest)** - ⭐ 1 | 🔱 0
-   - 💻 Language: Rust | 📝 Lines: 245
+4. **[LeptosTest](https://github.com/alessandrobrunoh/LeptosTest)** - ⭐ 1 | 🔱 0
+   - 💻 Language: Rust | 📝 Lines: 273
 
 5. **[Progetto-Big-Data](https://github.com/alessandrobrunoh/Progetto-Big-Data)** - ⭐ 1 | 🔱 1
    - 💻 Language: Jupyter Notebook | 📝 Lines: 79,128
@@ -157,12 +157,12 @@ Building the future, one commit at a time.
 | [SycamoreTest](https://github.com/alessandrobrunoh/SycamoreTest) | ⭐ 1 | 🔱 0 | Rust | 1,245 |
 | [KetchApp-Kafka](https://github.com/alessandrobrunoh/KetchApp-Kafka) | ⭐ 1 | 🔱 2 | Java | 934 |
 | [KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api) | ⭐ 1 | 🔱 2 | Rust | 930 |
+| [Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test) | ⭐ 1 | 🔱 0 | Rust | 881 |
 | [ReactTest](https://github.com/alessandrobrunoh/ReactTest) | ⭐ 1 | 🔱 0 | TypeScript | 282 |
 | [LeptosTest](https://github.com/alessandrobrunoh/LeptosTest) | ⭐ 1 | 🔱 0 | Rust | 273 |
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
-| [Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test) | ⭐ 1 | 🔱 0 | Rust | 119 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
-| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 844,736 |
+| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 847,388 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
 | [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
@@ -193,4 +193,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-11-04 01:23:00
+🤖 This profile was automatically updated on 2025-11-05 01:23:02
