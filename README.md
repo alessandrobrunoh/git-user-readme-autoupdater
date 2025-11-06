@@ -8,7 +8,7 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.6% | 18 projects)
+#### 🦀 Rust (🏆 Expert - 73.6% | 13 projects)
 
 - **Backend:** Actix Web • Actix • Tokio
 - **Database:** Diesel
@@ -24,7 +24,7 @@ Building the future, one commit at a time.
 - **Backend:** Express.js
 - **Styling:** Tailwind CSS
 
-#### 💛 JavaScript (🏆 Expert - 2.2% | 14 projects)
+#### 💛 JavaScript (🏆 Expert - 2.2% | 13 projects)
 
 - **Frontend Frameworks:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
@@ -68,16 +68,16 @@ Building the future, one commit at a time.
 
 #### ⚡ Tools & Frameworks
 
-- 🏆 **HTML** (14 projects)
-- 🏆 **SCSS** (10 projects)
-- 🏆 **CSS** (9 projects)
+- 🏆 **HTML** (11 projects)
 - 🏆 **Shell** (8 projects)
-- 🏆 **Serde** (8 projects)
+- 🏆 **CSS** (8 projects)
+- 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
-- 🏆 **Reqwest** (5 projects)
-- ⭐ **Tokio** (4 projects)
 - ⭐ **Batchfile** (4 projects)
+- ⭐ **Serde** (4 projects)
 - ⭐ **C** (4 projects)
+- 💫 **Spring Boot** (3 projects)
+- 💫 **CMake** (3 projects)
 
 ---
 
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 46
-- 📝 **Total Lines of Code**: 1,145,043
+- 🗂️ **Total Repositories**: 41
+- 📝 **Total Lines of Code**: 1,140,689
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -94,17 +94,17 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 78.9%
+1. **Rust** - 78.8%
    ```
    ███████████████████████████████████████░░░░░░░░░░░
    ```
 
-2. **Jupyter Notebook** - 11.3%
+2. **Jupyter Notebook** - 11.4%
    ```
    █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-3. **TypeScript** - 5.7%
+3. **TypeScript** - 5.8%
    ```
    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -114,7 +114,7 @@ Building the future, one commit at a time.
    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-5. **Java** - 1.7%
+5. **Java** - 1.8%
    ```
    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -162,24 +162,19 @@ Building the future, one commit at a time.
 | [LeptosTest](https://github.com/alessandrobrunoh/LeptosTest) | ⭐ 1 | 🔱 0 | Rust | 273 |
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
-| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 847,388 |
+| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 849,449 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
 | [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
-| [guildkeeper-rs](https://github.com/alessandrobrunoh/guildkeeper-rs) | ⭐ 0 | 🔱 0 | None | 2,696 |
 | [tree-sitter-ftl](https://github.com/alessandrobrunoh/tree-sitter-ftl) | ⭐ 0 | 🔱 0 | C | 2,312 |
-| [RustProject](https://github.com/alessandrobrunoh/RustProject) | ⭐ 0 | 🔱 0 | Rust | 2,127 |
 | [Discord-Bot-Ruby](https://github.com/alessandrobrunoh/Discord-Bot-Ruby) | ⭐ 0 | 🔱 0 | None | 1,973 |
-| [AlbionManagerDiscord](https://github.com/alessandrobrunoh/AlbionManagerDiscord) | ⭐ 0 | 🔱 0 | Rust | 1,352 |
 | [alessandrobrunoh.github.io](https://github.com/alessandrobrunoh/alessandrobrunoh.github.io) | ⭐ 0 | 🔱 0 | SCSS | 1,305 |
 | [git-user-readme-autoupdater](https://github.com/alessandrobrunoh/git-user-readme-autoupdater) | ⭐ 0 | 🔱 0 | Python | 1,208 |
 | [Gemini](https://github.com/alessandrobrunoh/Gemini) | ⭐ 0 | 🔱 0 | TypeScript | 1,167 |
+| [gpui_devtools_inspector](https://github.com/alessandrobrunoh/gpui_devtools_inspector) | ⭐ 0 | 🔱 0 | Rust | 714 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
-| [Rest-API](https://github.com/alessandrobrunoh/Rest-API) | ⭐ 0 | 🔱 0 | None | 328 |
-| [Discord-Bot](https://github.com/alessandrobrunoh/Discord-Bot) | ⭐ 0 | 🔱 0 | None | 313 |
-| [Web-Site](https://github.com/alessandrobrunoh/Web-Site) | ⭐ 0 | 🔱 0 | None | 313 |
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Card-Game-Builder](https://github.com/alessandrobrunoh/Card-Game-Builder) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -193,4 +188,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-11-05 01:23:02
+🤖 This profile was automatically updated on 2025-11-06 01:22:17
