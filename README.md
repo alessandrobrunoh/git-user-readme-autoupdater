@@ -69,8 +69,8 @@ Building the future, one commit at a time.
 #### ⚡ Tools & Frameworks
 
 - 🏆 **HTML** (11 projects)
-- 🏆 **Shell** (8 projects)
 - 🏆 **CSS** (8 projects)
+- 🏆 **Shell** (8 projects)
 - 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
 - ⭐ **Batchfile** (4 projects)
@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 41
-- 📝 **Total Lines of Code**: 1,140,689
+- 📝 **Total Lines of Code**: 1,140,324
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -172,9 +172,9 @@ Building the future, one commit at a time.
 | [alessandrobrunoh.github.io](https://github.com/alessandrobrunoh/alessandrobrunoh.github.io) | ⭐ 0 | 🔱 0 | SCSS | 1,305 |
 | [git-user-readme-autoupdater](https://github.com/alessandrobrunoh/git-user-readme-autoupdater) | ⭐ 0 | 🔱 0 | Python | 1,208 |
 | [Gemini](https://github.com/alessandrobrunoh/Gemini) | ⭐ 0 | 🔱 0 | TypeScript | 1,167 |
-| [gpui_devtools_inspector](https://github.com/alessandrobrunoh/gpui_devtools_inspector) | ⭐ 0 | 🔱 0 | Rust | 714 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
+| [gpui_devtools_inspector](https://github.com/alessandrobrunoh/gpui_devtools_inspector) | ⭐ 0 | 🔱 0 | Rust | 349 |
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Card-Game-Builder](https://github.com/alessandrobrunoh/Card-Game-Builder) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -188,4 +188,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-11-06 01:22:17
+🤖 This profile was automatically updated on 2025-11-07 01:22:21
