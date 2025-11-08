@@ -8,7 +8,7 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.6% | 13 projects)
+#### 🦀 Rust (🏆 Expert - 73.7% | 14 projects)
 
 - **Backend:** Actix Web • Actix • Tokio
 - **Database:** Diesel
@@ -69,8 +69,8 @@ Building the future, one commit at a time.
 #### ⚡ Tools & Frameworks
 
 - 🏆 **HTML** (11 projects)
-- 🏆 **CSS** (8 projects)
 - 🏆 **Shell** (8 projects)
+- 🏆 **CSS** (8 projects)
 - 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
 - ⭐ **Batchfile** (4 projects)
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 41
-- 📝 **Total Lines of Code**: 1,140,324
+- 🗂️ **Total Repositories**: 42
+- 📝 **Total Lines of Code**: 1,144,471
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -94,17 +94,17 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 78.8%
+1. **Rust** - 78.9%
    ```
    ███████████████████████████████████████░░░░░░░░░░░
    ```
 
-2. **Jupyter Notebook** - 11.4%
+2. **Jupyter Notebook** - 11.3%
    ```
    █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-3. **TypeScript** - 5.8%
+3. **TypeScript** - 5.7%
    ```
    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -114,7 +114,7 @@ Building the future, one commit at a time.
    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-5. **Java** - 1.8%
+5. **Java** - 1.7%
    ```
    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -162,7 +162,7 @@ Building the future, one commit at a time.
 | [LeptosTest](https://github.com/alessandrobrunoh/LeptosTest) | ⭐ 1 | 🔱 0 | Rust | 273 |
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
-| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 849,449 |
+| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 852,198 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
 | [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
@@ -172,9 +172,10 @@ Building the future, one commit at a time.
 | [alessandrobrunoh.github.io](https://github.com/alessandrobrunoh/alessandrobrunoh.github.io) | ⭐ 0 | 🔱 0 | SCSS | 1,305 |
 | [git-user-readme-autoupdater](https://github.com/alessandrobrunoh/git-user-readme-autoupdater) | ⭐ 0 | 🔱 0 | Python | 1,208 |
 | [Gemini](https://github.com/alessandrobrunoh/Gemini) | ⭐ 0 | 🔱 0 | TypeScript | 1,167 |
+| [gpui_devtools_inspector](https://github.com/alessandrobrunoh/gpui_devtools_inspector) | ⭐ 0 | 🔱 0 | Rust | 1,110 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
+| [gpui_devtools](https://github.com/alessandrobrunoh/gpui_devtools) | ⭐ 0 | 🔱 0 | Rust | 637 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
-| [gpui_devtools_inspector](https://github.com/alessandrobrunoh/gpui_devtools_inspector) | ⭐ 0 | 🔱 0 | Rust | 349 |
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Card-Game-Builder](https://github.com/alessandrobrunoh/Card-Game-Builder) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -188,4 +189,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-11-07 01:22:21
+🤖 This profile was automatically updated on 2025-11-08 01:17:45
