@@ -69,8 +69,8 @@ Building the future, one commit at a time.
 #### ⚡ Tools & Frameworks
 
 - 🏆 **HTML** (11 projects)
-- 🏆 **Shell** (8 projects)
 - 🏆 **CSS** (8 projects)
+- 🏆 **Shell** (8 projects)
 - 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
 - ⭐ **Batchfile** (4 projects)
@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 42
-- 📝 **Total Lines of Code**: 1,144,471
+- 📝 **Total Lines of Code**: 1,144,885
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -162,7 +162,7 @@ Building the future, one commit at a time.
 | [LeptosTest](https://github.com/alessandrobrunoh/LeptosTest) | ⭐ 1 | 🔱 0 | Rust | 273 |
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
-| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 852,198 |
+| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 852,311 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
 | [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
@@ -173,8 +173,8 @@ Building the future, one commit at a time.
 | [git-user-readme-autoupdater](https://github.com/alessandrobrunoh/git-user-readme-autoupdater) | ⭐ 0 | 🔱 0 | Python | 1,208 |
 | [Gemini](https://github.com/alessandrobrunoh/Gemini) | ⭐ 0 | 🔱 0 | TypeScript | 1,167 |
 | [gpui_devtools_inspector](https://github.com/alessandrobrunoh/gpui_devtools_inspector) | ⭐ 0 | 🔱 0 | Rust | 1,110 |
+| [gpui_devtools](https://github.com/alessandrobrunoh/gpui_devtools) | ⭐ 0 | 🔱 0 | Rust | 938 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
-| [gpui_devtools](https://github.com/alessandrobrunoh/gpui_devtools) | ⭐ 0 | 🔱 0 | Rust | 637 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -189,4 +189,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-11-08 01:17:45
+🤖 This profile was automatically updated on 2025-11-09 01:26:49
