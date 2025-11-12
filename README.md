@@ -8,7 +8,7 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.7% | 14 projects)
+#### 🦀 Rust (🏆 Expert - 73.7% | 13 projects)
 
 - **Backend:** Actix Web • Actix • Tokio
 - **Database:** Diesel
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 42
-- 📝 **Total Lines of Code**: 1,144,885
+- 🗂️ **Total Repositories**: 41
+- 📝 **Total Lines of Code**: 1,143,775
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -172,7 +172,6 @@ Building the future, one commit at a time.
 | [alessandrobrunoh.github.io](https://github.com/alessandrobrunoh/alessandrobrunoh.github.io) | ⭐ 0 | 🔱 0 | SCSS | 1,305 |
 | [git-user-readme-autoupdater](https://github.com/alessandrobrunoh/git-user-readme-autoupdater) | ⭐ 0 | 🔱 0 | Python | 1,208 |
 | [Gemini](https://github.com/alessandrobrunoh/Gemini) | ⭐ 0 | 🔱 0 | TypeScript | 1,167 |
-| [gpui_devtools_inspector](https://github.com/alessandrobrunoh/gpui_devtools_inspector) | ⭐ 0 | 🔱 0 | Rust | 1,110 |
 | [gpui_devtools](https://github.com/alessandrobrunoh/gpui_devtools) | ⭐ 0 | 🔱 0 | Rust | 938 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
@@ -189,4 +188,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-11-11 01:22:56
+🤖 This profile was automatically updated on 2025-11-12 01:22:25
