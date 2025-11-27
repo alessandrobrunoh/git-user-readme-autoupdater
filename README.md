@@ -8,7 +8,7 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.7% | 13 projects)
+#### 🦀 Rust (🏆 Expert - 73.7% | 14 projects)
 
 - **Backend:** Actix Web • Actix • Tokio
 - **Database:** Diesel
@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 43
-- 📝 **Total Lines of Code**: 1,143,775
+- 📝 **Total Lines of Code**: 1,144,165
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -175,6 +175,7 @@ Building the future, one commit at a time.
 | [gpui_devtools](https://github.com/alessandrobrunoh/gpui_devtools) | ⭐ 0 | 🔱 0 | Rust | 938 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
+| [TestGeminiDesktop](https://github.com/alessandrobrunoh/TestGeminiDesktop) | ⭐ 0 | 🔱 0 | Rust | 390 |
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Card-Game-Builder](https://github.com/alessandrobrunoh/Card-Game-Builder) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -184,10 +185,9 @@ Building the future, one commit at a time.
 | [Linear-Issues-Logs](https://github.com/alessandrobrunoh/Linear-Issues-Logs) | ⭐ 0 | 🔱 0 | None | 0 |
 | [My-Zed-IDE-Snippets](https://github.com/alessandrobrunoh/My-Zed-IDE-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Tasks-Snippets](https://github.com/alessandrobrunoh/Tasks-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
-| [TestGeminiDesktop](https://github.com/alessandrobrunoh/TestGeminiDesktop) | ⭐ 0 | 🔱 0 | None | 0 |
 | [TestRhupster](https://github.com/alessandrobrunoh/TestRhupster) | ⭐ 0 | 🔱 0 | None | 0 |
 | [zed-grammar-fdl](https://github.com/alessandrobrunoh/zed-grammar-fdl) | ⭐ 0 | 🔱 0 | None | 0 |
 
 ---
 
-🤖 This profile was automatically updated on 2025-11-26 01:23:18
+🤖 This profile was automatically updated on 2025-11-27 01:21:42
