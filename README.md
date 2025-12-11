@@ -69,8 +69,8 @@ Building the future, one commit at a time.
 #### ⚡ Tools & Frameworks
 
 - 🏆 **HTML** (11 projects)
-- 🏆 **Shell** (8 projects)
 - 🏆 **CSS** (8 projects)
+- 🏆 **Shell** (8 projects)
 - 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
 - ⭐ **Batchfile** (4 projects)
@@ -85,7 +85,7 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 43
+- 🗂️ **Total Repositories**: 44
 - 📝 **Total Lines of Code**: 1,144,165
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
@@ -179,6 +179,7 @@ Building the future, one commit at a time.
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Card-Game-Builder](https://github.com/alessandrobrunoh/Card-Game-Builder) | ⭐ 0 | 🔱 0 | None | 0 |
+| [GeminiCLI-Modules](https://github.com/alessandrobrunoh/GeminiCLI-Modules) | ⭐ 0 | 🔱 0 | None | 0 |
 | [GPUI-Multi-Page-Ai-Terminal](https://github.com/alessandrobrunoh/GPUI-Multi-Page-Ai-Terminal) | ⭐ 0 | 🔱 0 | None | 0 |
 | [HomeOS-for-Families](https://github.com/alessandrobrunoh/HomeOS-for-Families) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Jhipster-for-Rust-BackEnd](https://github.com/alessandrobrunoh/Jhipster-for-Rust-BackEnd) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -190,4 +191,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-12-10 01:27:22
+🤖 This profile was automatically updated on 2025-12-11 01:27:04
