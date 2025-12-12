@@ -69,8 +69,8 @@ Building the future, one commit at a time.
 #### ⚡ Tools & Frameworks
 
 - 🏆 **HTML** (11 projects)
-- 🏆 **CSS** (8 projects)
 - 🏆 **Shell** (8 projects)
+- 🏆 **CSS** (8 projects)
 - 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
 - ⭐ **Batchfile** (4 projects)
@@ -85,7 +85,7 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 44
+- 🗂️ **Total Repositories**: 46
 - 📝 **Total Lines of Code**: 1,144,165
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
@@ -187,8 +187,10 @@ Building the future, one commit at a time.
 | [My-Zed-IDE-Snippets](https://github.com/alessandrobrunoh/My-Zed-IDE-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Tasks-Snippets](https://github.com/alessandrobrunoh/Tasks-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
 | [TestRhupster](https://github.com/alessandrobrunoh/TestRhupster) | ⭐ 0 | 🔱 0 | None | 0 |
+| [tree-sitter-usercontrol](https://github.com/alessandrobrunoh/tree-sitter-usercontrol) | ⭐ 0 | 🔱 0 | None | 0 |
+| [universal-agents](https://github.com/alessandrobrunoh/universal-agents) | ⭐ 0 | 🔱 0 | None | 0 |
 | [zed-grammar-fdl](https://github.com/alessandrobrunoh/zed-grammar-fdl) | ⭐ 0 | 🔱 0 | None | 0 |
 
 ---
 
-🤖 This profile was automatically updated on 2025-12-11 01:27:04
+🤖 This profile was automatically updated on 2025-12-12 01:26:58
