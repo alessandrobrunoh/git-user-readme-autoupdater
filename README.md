@@ -8,7 +8,7 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.7% | 14 projects)
+#### 🦀 Rust (🏆 Expert - 73.7% | 15 projects)
 
 - **Backend:** Actix Web • Actix • Tokio
 - **Database:** Diesel
@@ -24,7 +24,7 @@ Building the future, one commit at a time.
 - **Backend:** Express.js
 - **Styling:** Tailwind CSS
 
-#### 💛 JavaScript (🏆 Expert - 2.2% | 13 projects)
+#### 💛 JavaScript (🏆 Expert - 2.2% | 14 projects)
 
 - **Frontend Frameworks:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
@@ -69,7 +69,7 @@ Building the future, one commit at a time.
 #### ⚡ Tools & Frameworks
 
 - 🏆 **HTML** (11 projects)
-- 🏆 **CSS** (8 projects)
+- 🏆 **CSS** (9 projects)
 - 🏆 **Shell** (8 projects)
 - 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 46
-- 📝 **Total Lines of Code**: 1,144,165
+- 📝 **Total Lines of Code**: 1,145,025
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -173,6 +173,7 @@ Building the future, one commit at a time.
 | [git-user-readme-autoupdater](https://github.com/alessandrobrunoh/git-user-readme-autoupdater) | ⭐ 0 | 🔱 0 | Python | 1,208 |
 | [Gemini](https://github.com/alessandrobrunoh/Gemini) | ⭐ 0 | 🔱 0 | TypeScript | 1,167 |
 | [gpui_devtools](https://github.com/alessandrobrunoh/gpui_devtools) | ⭐ 0 | 🔱 0 | Rust | 938 |
+| [Jhipster-for-Rust-BackEnd](https://github.com/alessandrobrunoh/Jhipster-for-Rust-BackEnd) | ⭐ 0 | 🔱 0 | Rust | 860 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
 | [TestGeminiDesktop](https://github.com/alessandrobrunoh/TestGeminiDesktop) | ⭐ 0 | 🔱 0 | Rust | 390 |
@@ -182,7 +183,6 @@ Building the future, one commit at a time.
 | [GeminiCLI-Modules](https://github.com/alessandrobrunoh/GeminiCLI-Modules) | ⭐ 0 | 🔱 0 | None | 0 |
 | [GPUI-Multi-Page-Ai-Terminal](https://github.com/alessandrobrunoh/GPUI-Multi-Page-Ai-Terminal) | ⭐ 0 | 🔱 0 | None | 0 |
 | [HomeOS-for-Families](https://github.com/alessandrobrunoh/HomeOS-for-Families) | ⭐ 0 | 🔱 0 | None | 0 |
-| [Jhipster-for-Rust-BackEnd](https://github.com/alessandrobrunoh/Jhipster-for-Rust-BackEnd) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Linear-Issues-Logs](https://github.com/alessandrobrunoh/Linear-Issues-Logs) | ⭐ 0 | 🔱 0 | None | 0 |
 | [My-Zed-IDE-Snippets](https://github.com/alessandrobrunoh/My-Zed-IDE-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Tasks-Snippets](https://github.com/alessandrobrunoh/Tasks-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -193,4 +193,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-12-15 01:29:06
+🤖 This profile was automatically updated on 2025-12-16 01:29:06
