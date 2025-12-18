@@ -85,7 +85,7 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 46
+- 🗂️ **Total Repositories**: 47
 - 📝 **Total Lines of Code**: 1,145,027
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
@@ -185,6 +185,7 @@ Building the future, one commit at a time.
 | [HomeOS-for-Families](https://github.com/alessandrobrunoh/HomeOS-for-Families) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Linear-Issues-Logs](https://github.com/alessandrobrunoh/Linear-Issues-Logs) | ⭐ 0 | 🔱 0 | None | 0 |
 | [My-Zed-IDE-Snippets](https://github.com/alessandrobrunoh/My-Zed-IDE-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
+| [Relazione-Luna-Partner-Primo-Tirocinio](https://github.com/alessandrobrunoh/Relazione-Luna-Partner-Primo-Tirocinio) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Tasks-Snippets](https://github.com/alessandrobrunoh/Tasks-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
 | [TestRhupster](https://github.com/alessandrobrunoh/TestRhupster) | ⭐ 0 | 🔱 0 | None | 0 |
 | [tree-sitter-usercontrol](https://github.com/alessandrobrunoh/tree-sitter-usercontrol) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -193,4 +194,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-12-17 01:24:25
+🤖 This profile was automatically updated on 2025-12-18 01:25:11
