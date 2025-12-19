@@ -8,23 +8,28 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.7% | 15 projects)
+#### 🦀 Rust (🏆 Expert - 72.1% | 15 projects)
 
 - **Backend:** Actix Web • Actix • Tokio
 - **Database:** Diesel
 - **Tools:** Serde • Clap • Rayon • Reqwest • Hyper
 
-#### 📓 Jupyter Notebook (💫 Intermediate - 10.6% | 2 projects)
+#### 📓 Jupyter Notebook (💫 Intermediate - 10.3% | 2 projects)
 
 
-#### ⚛️ TypeScript (🏆 Expert - 5.4% | 10 projects)
+#### ⚛️ TypeScript (🏆 Expert - 5.2% | 10 projects)
 
 - **Frontend:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
 - **Backend:** Express.js
 - **Styling:** Tailwind CSS
 
-#### 💛 JavaScript (🏆 Expert - 2.2% | 14 projects)
+#### 🐍 Python (🏆 Expert - 2.6% | 9 projects)
+
+- **Data Science:** Jupyter Notebook
+- **Async:** aiohttp
+
+#### 💛 JavaScript (🏆 Expert - 2.1% | 14 projects)
 
 - **Frontend Frameworks:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
@@ -38,11 +43,6 @@ Building the future, one commit at a time.
 - **Enterprise:** JHipster • Hibernate
 - **Build Tools:** Maven • Gradle
 - **Testing:** JUnit
-
-#### 🐍 Python (🏆 Expert - 0.6% | 8 projects)
-
-- **Data Science:** Jupyter Notebook
-- **Async:** aiohttp
 
 #### ⚙️ C++ (💫 Intermediate - 0.1% | 3 projects)
 
@@ -58,7 +58,7 @@ Building the future, one commit at a time.
 #### 🚀 DevOps & Infrastructure
 
 - **Containerization:** 🏆 **Docker** (5 projects)
-- **CI/CD:** 📚 **GitHub Actions** (2 projects)
+- **CI/CD:** 💫 **GitHub Actions** (3 projects)
 
 #### 🌐 Other Languages
 
@@ -69,8 +69,8 @@ Building the future, one commit at a time.
 #### ⚡ Tools & Frameworks
 
 - 🏆 **HTML** (11 projects)
+- 🏆 **Shell** (9 projects)
 - 🏆 **CSS** (9 projects)
-- 🏆 **Shell** (8 projects)
 - 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
 - ⭐ **Batchfile** (4 projects)
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 47
-- 📝 **Total Lines of Code**: 1,145,027
+- 🗂️ **Total Repositories**: 48
+- 📝 **Total Lines of Code**: 1,169,157
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -94,12 +94,12 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 78.9%
+1. **Rust** - 78.0%
    ```
-   ███████████████████████████████████████░░░░░░░░░░░
+   ██████████████████████████████████████░░░░░░░░░░░░
    ```
 
-2. **Jupyter Notebook** - 11.3%
+2. **Jupyter Notebook** - 11.2%
    ```
    █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -109,14 +109,14 @@ Building the future, one commit at a time.
    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-4. **JavaScript** - 2.3%
+4. **Python** - 2.9%
    ```
    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-5. **Java** - 1.7%
+5. **JavaScript** - 2.3%
    ```
-   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
 ---
@@ -163,6 +163,7 @@ Building the future, one commit at a time.
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
 | [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 852,311 |
+| [mistral-vibe](https://github.com/alessandrobrunoh/mistral-vibe) | ⭐ 0 | 🔱 0 | None | 24,130 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
 | [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
@@ -194,4 +195,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-12-18 01:25:11
+🤖 This profile was automatically updated on 2025-12-19 01:26:40
