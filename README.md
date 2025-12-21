@@ -69,8 +69,8 @@ Building the future, one commit at a time.
 #### ⚡ Tools & Frameworks
 
 - 🏆 **HTML** (11 projects)
-- 🏆 **Shell** (9 projects)
 - 🏆 **CSS** (9 projects)
+- 🏆 **Shell** (9 projects)
 - 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
 - ⭐ **Batchfile** (4 projects)
@@ -195,4 +195,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-12-20 01:23:16
+🤖 This profile was automatically updated on 2025-12-21 01:41:38
