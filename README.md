@@ -87,7 +87,7 @@ Building the future, one commit at a time.
 
 - 🗂️ **Total Repositories**: 48
 - 📝 **Total Lines of Code**: 1,169,157
-- ⭐ **Total Stars**: 18
+- ⭐ **Total Stars**: 19
 - 🔱 **Total Forks**: 10
 
 ---
@@ -162,6 +162,7 @@ Building the future, one commit at a time.
 | [LeptosTest](https://github.com/alessandrobrunoh/LeptosTest) | ⭐ 1 | 🔱 0 | Rust | 273 |
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
+| [GeminiCLI-Modules](https://github.com/alessandrobrunoh/GeminiCLI-Modules) | ⭐ 1 | 🔱 0 | None | 0 |
 | [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 852,311 |
 | [mistral-vibe](https://github.com/alessandrobrunoh/mistral-vibe) | ⭐ 0 | 🔱 0 | None | 24,130 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
@@ -181,7 +182,6 @@ Building the future, one commit at a time.
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Card-Game-Builder](https://github.com/alessandrobrunoh/Card-Game-Builder) | ⭐ 0 | 🔱 0 | None | 0 |
-| [GeminiCLI-Modules](https://github.com/alessandrobrunoh/GeminiCLI-Modules) | ⭐ 0 | 🔱 0 | None | 0 |
 | [GPUI-Multi-Page-Ai-Terminal](https://github.com/alessandrobrunoh/GPUI-Multi-Page-Ai-Terminal) | ⭐ 0 | 🔱 0 | None | 0 |
 | [HomeOS-for-Families](https://github.com/alessandrobrunoh/HomeOS-for-Families) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Linear-Issues-Logs](https://github.com/alessandrobrunoh/Linear-Issues-Logs) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -195,4 +195,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2025-12-21 01:41:38
+🤖 This profile was automatically updated on 2025-12-22 01:41:47
