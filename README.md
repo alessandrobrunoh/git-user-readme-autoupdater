@@ -8,16 +8,16 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 72.1% | 15 projects)
+#### 🦀 Rust (🏆 Expert - 72.3% | 16 projects)
 
-- **Backend:** Actix Web • Actix • Tokio
+- **Backend:** Actix Web • Actix • Axum • Tokio
 - **Database:** Diesel
 - **Tools:** Serde • Clap • Rayon • Reqwest • Hyper
 
 #### 📓 Jupyter Notebook (💫 Intermediate - 10.3% | 2 projects)
 
 
-#### ⚛️ TypeScript (🏆 Expert - 5.2% | 10 projects)
+#### ⚛️ TypeScript (🏆 Expert - 5.2% | 11 projects)
 
 - **Frontend:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
@@ -69,15 +69,15 @@ Building the future, one commit at a time.
 #### ⚡ Tools & Frameworks
 
 - 🏆 **HTML** (11 projects)
+- 🏆 **Shell** (10 projects)
 - 🏆 **CSS** (9 projects)
-- 🏆 **Shell** (9 projects)
 - 🏆 **SCSS** (7 projects)
 - 🏆 **Dockerfile** (7 projects)
+- 🏆 **Serde** (5 projects)
 - ⭐ **Batchfile** (4 projects)
-- ⭐ **Serde** (4 projects)
 - ⭐ **C** (4 projects)
+- 💫 **Tokio** (3 projects)
 - 💫 **Spring Boot** (3 projects)
-- 💫 **CMake** (3 projects)
 
 ---
 
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 48
-- 📝 **Total Lines of Code**: 1,169,157
+- 🗂️ **Total Repositories**: 49
+- 📝 **Total Lines of Code**: 1,177,060
 - ⭐ **Total Stars**: 19
 - 🔱 **Total Forks**: 10
 
@@ -94,22 +94,22 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 78.0%
+1. **Rust** - 78.1%
    ```
-   ██████████████████████████████████████░░░░░░░░░░░░
+   ███████████████████████████████████████░░░░░░░░░░░
    ```
 
-2. **Jupyter Notebook** - 11.2%
+2. **Jupyter Notebook** - 11.1%
    ```
    █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-3. **TypeScript** - 5.7%
+3. **TypeScript** - 5.6%
    ```
    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-4. **Python** - 2.9%
+4. **Python** - 2.8%
    ```
    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -167,6 +167,7 @@ Building the future, one commit at a time.
 | [mistral-vibe](https://github.com/alessandrobrunoh/mistral-vibe) | ⭐ 0 | 🔱 0 | None | 24,130 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
+| [EywaOS](https://github.com/alessandrobrunoh/EywaOS) | ⭐ 0 | 🔱 0 | Rust | 7,903 |
 | [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
 | [tree-sitter-ftl](https://github.com/alessandrobrunoh/tree-sitter-ftl) | ⭐ 0 | 🔱 0 | C | 2,312 |
@@ -195,4 +196,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2026-01-03 01:25:45
+🤖 This profile was automatically updated on 2026-01-04 01:48:27
