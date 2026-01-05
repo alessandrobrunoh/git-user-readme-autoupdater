@@ -8,28 +8,23 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 72.3% | 16 projects)
+#### 🦀 Rust (🏆 Expert - 72.8% | 16 projects)
 
 - **Backend:** Actix Web • Actix • Axum • Tokio
 - **Database:** Diesel
 - **Tools:** Serde • Clap • Rayon • Reqwest • Hyper
 
-#### 📓 Jupyter Notebook (💫 Intermediate - 10.3% | 2 projects)
+#### 📓 Jupyter Notebook (📚 Familiar - 9.8% | 2 projects)
 
 
-#### ⚛️ TypeScript (🏆 Expert - 5.2% | 11 projects)
+#### ⚛️ TypeScript (🏆 Expert - 7.8% | 12 projects)
 
 - **Frontend:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
 - **Backend:** Express.js
 - **Styling:** Tailwind CSS
 
-#### 🐍 Python (🏆 Expert - 2.6% | 9 projects)
-
-- **Data Science:** Jupyter Notebook
-- **Async:** aiohttp
-
-#### 💛 JavaScript (🏆 Expert - 2.1% | 14 projects)
+#### 💛 JavaScript (🏆 Expert - 2.1% | 15 projects)
 
 - **Frontend Frameworks:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
@@ -37,12 +32,17 @@ Building the future, one commit at a time.
 - **Build Tools:** Webpack • Vite
 - **Testing:** Jest • Cypress
 
-#### ☕ Java (🏆 Expert - 1.6% | 5 projects)
+#### ☕ Java (🏆 Expert - 1.5% | 5 projects)
 
 - **Spring Ecosystem:** Spring Boot
 - **Enterprise:** JHipster • Hibernate
 - **Build Tools:** Maven • Gradle
 - **Testing:** JUnit
+
+#### 🐍 Python (🏆 Expert - 0.5% | 8 projects)
+
+- **Data Science:** Jupyter Notebook
+- **Async:** aiohttp
 
 #### ⚙️ C++ (💫 Intermediate - 0.1% | 3 projects)
 
@@ -57,26 +57,26 @@ Building the future, one commit at a time.
 
 #### 🚀 DevOps & Infrastructure
 
-- **Containerization:** 🏆 **Docker** (5 projects)
-- **CI/CD:** 💫 **GitHub Actions** (3 projects)
+- **Containerization:** 🏆 **Docker** (6 projects)
+- **CI/CD:** 📚 **GitHub Actions** (2 projects)
 
 #### 🌐 Other Languages
 
-- 🎯 **Dart** (📚 1.4% | 1 project)
+- 🎯 **Dart** (📚 1.3% | 1 project)
 - 💎 **Ruby** (📚 0.0% | 1 project)
 - 🟣 **Kotlin** (📚 0.0% | 1 project)
 
 #### ⚡ Tools & Frameworks
 
-- 🏆 **HTML** (11 projects)
+- 🏆 **HTML** (12 projects)
 - 🏆 **Shell** (10 projects)
-- 🏆 **CSS** (9 projects)
+- 🏆 **CSS** (10 projects)
+- 🏆 **Dockerfile** (8 projects)
 - 🏆 **SCSS** (7 projects)
-- 🏆 **Dockerfile** (7 projects)
-- 🏆 **Serde** (5 projects)
+- 🏆 **Serde** (6 projects)
+- ⭐ **Tokio** (4 projects)
 - ⭐ **Batchfile** (4 projects)
 - ⭐ **C** (4 projects)
-- 💫 **Tokio** (3 projects)
 - 💫 **Spring Boot** (3 projects)
 
 ---
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 49
-- 📝 **Total Lines of Code**: 1,177,060
+- 🗂️ **Total Repositories**: 45
+- 📝 **Total Lines of Code**: 1,240,658
 - ⭐ **Total Stars**: 19
 - 🔱 **Total Forks**: 10
 
@@ -94,29 +94,29 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 78.1%
+1. **Rust** - 77.5%
    ```
-   ███████████████████████████████████████░░░░░░░░░░░
+   ██████████████████████████████████████░░░░░░░░░░░░
    ```
 
-2. **Jupyter Notebook** - 11.1%
+2. **Jupyter Notebook** - 10.4%
    ```
    █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-3. **TypeScript** - 5.6%
+3. **TypeScript** - 8.3%
    ```
-   ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+   ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-4. **Python** - 2.8%
+4. **JavaScript** - 2.2%
    ```
    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-5. **JavaScript** - 2.3%
+5. **Java** - 1.6%
    ```
-   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
 ---
@@ -135,8 +135,8 @@ Building the future, one commit at a time.
 4. **[LeptosTest](https://github.com/alessandrobrunoh/LeptosTest)** - ⭐ 1 | 🔱 0
    - 💻 Language: Rust | 📝 Lines: 273
 
-5. **[Progetto-Big-Data](https://github.com/alessandrobrunoh/Progetto-Big-Data)** - ⭐ 1 | 🔱 1
-   - 💻 Language: Jupyter Notebook | 📝 Lines: 79,128
+5. **[DioxusTest](https://github.com/alessandrobrunoh/DioxusTest)** - ⭐ 1 | 🔱 0
+   - 💻 Language: Rust | 📝 Lines: 245
 
 ---
 
@@ -164,10 +164,10 @@ Building the future, one commit at a time.
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
 | [GeminiCLI-Modules](https://github.com/alessandrobrunoh/GeminiCLI-Modules) | ⭐ 1 | 🔱 0 | None | 0 |
 | [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 852,311 |
-| [mistral-vibe](https://github.com/alessandrobrunoh/mistral-vibe) | ⭐ 0 | 🔱 0 | None | 24,130 |
+| [vibe-kanban-jules](https://github.com/alessandrobrunoh/vibe-kanban-jules) | ⭐ 0 | 🔱 0 | None | 87,839 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
-| [EywaOS](https://github.com/alessandrobrunoh/EywaOS) | ⭐ 0 | 🔱 0 | Rust | 7,903 |
+| [EywaOS](https://github.com/alessandrobrunoh/EywaOS) | ⭐ 0 | 🔱 0 | Rust | 8,182 |
 | [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
 | [tree-sitter-ftl](https://github.com/alessandrobrunoh/tree-sitter-ftl) | ⭐ 0 | 🔱 0 | C | 2,312 |
@@ -179,7 +179,6 @@ Building the future, one commit at a time.
 | [Jhipster-for-Rust-BackEnd](https://github.com/alessandrobrunoh/Jhipster-for-Rust-BackEnd) | ⭐ 0 | 🔱 0 | Rust | 862 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
-| [TestGeminiDesktop](https://github.com/alessandrobrunoh/TestGeminiDesktop) | ⭐ 0 | 🔱 0 | Rust | 390 |
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Card-Game-Builder](https://github.com/alessandrobrunoh/Card-Game-Builder) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -187,13 +186,10 @@ Building the future, one commit at a time.
 | [HomeOS-for-Families](https://github.com/alessandrobrunoh/HomeOS-for-Families) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Linear-Issues-Logs](https://github.com/alessandrobrunoh/Linear-Issues-Logs) | ⭐ 0 | 🔱 0 | None | 0 |
 | [My-Zed-IDE-Snippets](https://github.com/alessandrobrunoh/My-Zed-IDE-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
-| [Relazione-Luna-Partner-Primo-Tirocinio](https://github.com/alessandrobrunoh/Relazione-Luna-Partner-Primo-Tirocinio) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Tasks-Snippets](https://github.com/alessandrobrunoh/Tasks-Snippets) | ⭐ 0 | 🔱 0 | None | 0 |
 | [TestRhupster](https://github.com/alessandrobrunoh/TestRhupster) | ⭐ 0 | 🔱 0 | None | 0 |
-| [tree-sitter-usercontrol](https://github.com/alessandrobrunoh/tree-sitter-usercontrol) | ⭐ 0 | 🔱 0 | None | 0 |
-| [universal-agents](https://github.com/alessandrobrunoh/universal-agents) | ⭐ 0 | 🔱 0 | None | 0 |
 | [zed-grammar-fdl](https://github.com/alessandrobrunoh/zed-grammar-fdl) | ⭐ 0 | 🔱 0 | None | 0 |
 
 ---
 
-🤖 This profile was automatically updated on 2026-01-04 01:48:27
+🤖 This profile was automatically updated on 2026-01-05 01:46:14
