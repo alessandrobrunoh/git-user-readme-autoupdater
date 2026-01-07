@@ -8,7 +8,7 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.9% | 16 projects)
+#### 🦀 Rust (🏆 Expert - 73.9% | 17 projects)
 
 - **Backend:** Actix Web • Actix • Axum • Tokio
 - **Database:** Diesel
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 44
-- 📝 **Total Lines of Code**: 1,317,620
+- 🗂️ **Total Repositories**: 45
+- 📝 **Total Lines of Code**: 1,318,082
 - ⭐ **Total Stars**: 19
 - 🔱 **Total Forks**: 10
 
@@ -179,6 +179,7 @@ Building the future, one commit at a time.
 | [Jhipster-for-Rust-BackEnd](https://github.com/alessandrobrunoh/Jhipster-for-Rust-BackEnd) | ⭐ 0 | 🔱 0 | Rust | 862 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
+| [game-with-vokke](https://github.com/alessandrobrunoh/game-with-vokke) | ⭐ 0 | 🔱 0 | Rust | 462 |
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
 | [GPUI-Multi-Page-Ai-Terminal](https://github.com/alessandrobrunoh/GPUI-Multi-Page-Ai-Terminal) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -191,4 +192,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2026-01-06 01:29:59
+🤖 This profile was automatically updated on 2026-01-07 01:30:36
