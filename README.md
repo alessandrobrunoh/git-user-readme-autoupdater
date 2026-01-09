@@ -85,7 +85,7 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 45
+- 🗂️ **Total Repositories**: 46
 - 📝 **Total Lines of Code**: 1,318,082
 - ⭐ **Total Stars**: 19
 - 🔱 **Total Forks**: 10
@@ -181,6 +181,7 @@ Building the future, one commit at a time.
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
 | [game-with-vokke](https://github.com/alessandrobrunoh/game-with-vokke) | ⭐ 0 | 🔱 0 | Rust | 462 |
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
+| [.obsidian](https://github.com/alessandrobrunoh/.obsidian) | ⭐ 0 | 🔱 0 | None | 0 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
 | [GPUI-Multi-Page-Ai-Terminal](https://github.com/alessandrobrunoh/GPUI-Multi-Page-Ai-Terminal) | ⭐ 0 | 🔱 0 | None | 0 |
 | [HomeOS-for-Families](https://github.com/alessandrobrunoh/HomeOS-for-Families) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -192,4 +193,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2026-01-08 01:29:49
+🤖 This profile was automatically updated on 2026-01-09 01:29:42
