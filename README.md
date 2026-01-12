@@ -8,7 +8,7 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 74.2% | 17 projects)
+#### 🦀 Rust (🏆 Expert - 74.1% | 17 projects)
 
 - **Backend:** Actix Web • Actix • Axum • Tokio
 - **Database:** Diesel
@@ -17,14 +17,14 @@ Building the future, one commit at a time.
 #### 📓 Jupyter Notebook (📚 Familiar - 9.1% | 2 projects)
 
 
-#### ⚛️ TypeScript (🏆 Expert - 7.4% | 12 projects)
+#### ⚛️ TypeScript (🏆 Expert - 7.5% | 13 projects)
 
 - **Frontend:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
 - **Backend:** Express.js
 - **Styling:** Tailwind CSS
 
-#### 💛 JavaScript (🏆 Expert - 2.1% | 16 projects)
+#### 💛 JavaScript (🏆 Expert - 2.1% | 17 projects)
 
 - **Frontend Frameworks:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
@@ -68,11 +68,11 @@ Building the future, one commit at a time.
 
 #### ⚡ Tools & Frameworks
 
-- 🏆 **HTML** (13 projects)
+- 🏆 **HTML** (14 projects)
 - 🏆 **CSS** (11 projects)
 - 🏆 **Shell** (10 projects)
 - 🏆 **Dockerfile** (9 projects)
-- 🏆 **SCSS** (7 projects)
+- 🏆 **SCSS** (8 projects)
 - 🏆 **Serde** (6 projects)
 - ⭐ **Tokio** (4 projects)
 - ⭐ **Batchfile** (4 projects)
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 46
-- 📝 **Total Lines of Code**: 1,330,806
+- 🗂️ **Total Repositories**: 47
+- 📝 **Total Lines of Code**: 1,331,340
 - ⭐ **Total Stars**: 19
 - 🔱 **Total Forks**: 10
 
@@ -178,6 +178,7 @@ Building the future, one commit at a time.
 | [gpui_devtools](https://github.com/alessandrobrunoh/gpui_devtools) | ⭐ 0 | 🔱 0 | Rust | 938 |
 | [Jhipster-for-Rust-BackEnd](https://github.com/alessandrobrunoh/Jhipster-for-Rust-BackEnd) | ⭐ 0 | 🔱 0 | Rust | 862 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
+| [test-app](https://github.com/alessandrobrunoh/test-app) | ⭐ 0 | 🔱 0 | TypeScript | 534 |
 | [extensions](https://github.com/alessandrobrunoh/extensions) | ⭐ 0 | 🔱 0 | JavaScript | 470 |
 | [game-with-vokke](https://github.com/alessandrobrunoh/game-with-vokke) | ⭐ 0 | 🔱 0 | Rust | 462 |
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
@@ -193,4 +194,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2026-01-11 01:46:22
+🤖 This profile was automatically updated on 2026-01-12 01:44:47
