@@ -87,7 +87,7 @@ Building the future, one commit at a time.
 
 - 🗂️ **Total Repositories**: 47
 - 📝 **Total Lines of Code**: 1,331,340
-- ⭐ **Total Stars**: 19
+- ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
 ---
@@ -162,7 +162,6 @@ Building the future, one commit at a time.
 | [LeptosTest](https://github.com/alessandrobrunoh/LeptosTest) | ⭐ 1 | 🔱 0 | Rust | 273 |
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
-| [GeminiCLI-Modules](https://github.com/alessandrobrunoh/GeminiCLI-Modules) | ⭐ 1 | 🔱 0 | None | 0 |
 | [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 927,438 |
 | [vibe-kanban-jules](https://github.com/alessandrobrunoh/vibe-kanban-jules) | ⭐ 0 | 🔱 0 | None | 87,839 |
 | [EywaOS](https://github.com/alessandrobrunoh/EywaOS) | ⭐ 0 | 🔱 0 | Rust | 22,741 |
@@ -184,6 +183,7 @@ Building the future, one commit at a time.
 | [zed-grammar-jdl](https://github.com/alessandrobrunoh/zed-grammar-jdl) | ⭐ 0 | 🔱 0 | Tree-sitter Query | 36 |
 | [.obsidian](https://github.com/alessandrobrunoh/.obsidian) | ⭐ 0 | 🔱 0 | None | 0 |
 | [alessandrobrunoh](https://github.com/alessandrobrunoh/alessandrobrunoh) | ⭐ 0 | 🔱 0 | None | 0 |
+| [GeminiCLI-Modules](https://github.com/alessandrobrunoh/GeminiCLI-Modules) | ⭐ 0 | 🔱 0 | None | 0 |
 | [GPUI-Multi-Page-Ai-Terminal](https://github.com/alessandrobrunoh/GPUI-Multi-Page-Ai-Terminal) | ⭐ 0 | 🔱 0 | None | 0 |
 | [HomeOS-for-Families](https://github.com/alessandrobrunoh/HomeOS-for-Families) | ⭐ 0 | 🔱 0 | None | 0 |
 | [Linear-Issues-Logs](https://github.com/alessandrobrunoh/Linear-Issues-Logs) | ⭐ 0 | 🔱 0 | None | 0 |
@@ -194,4 +194,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2026-01-13 01:27:39
+🤖 This profile was automatically updated on 2026-01-14 01:43:52
