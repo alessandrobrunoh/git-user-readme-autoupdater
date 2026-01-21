@@ -8,27 +8,27 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 74.1% | 17 projects)
+#### 🦀 Rust (🏆 Expert - 73.1% | 17 projects)
 
 - **Backend:** Actix Web • Actix • Axum • Tokio
 - **Database:** Diesel
 - **Tools:** Serde • Clap • Rayon • Reqwest • Hyper
 
-#### 📓 Jupyter Notebook (📚 Familiar - 9.1% | 2 projects)
+#### 📓 Jupyter Notebook (📚 Familiar - 8.9% | 2 projects)
 
 
-#### ⚛️ TypeScript (🏆 Expert - 7.5% | 13 projects)
+#### ⚛️ TypeScript (🏆 Expert - 8.8% | 14 projects)
 
 - **Frontend:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
 - **Backend:** Express.js
 - **Styling:** Tailwind CSS
 
-#### 💛 JavaScript (🏆 Expert - 2.1% | 17 projects)
+#### 💛 JavaScript (🏆 Expert - 2.1% | 18 projects)
 
 - **Frontend Frameworks:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
-- **Backend:** Express.js
+- **Backend:** Express.js • Fastify
 - **Build Tools:** Webpack • Vite
 - **Testing:** Jest • Cypress
 
@@ -68,10 +68,10 @@ Building the future, one commit at a time.
 
 #### ⚡ Tools & Frameworks
 
-- 🏆 **HTML** (14 projects)
-- 🏆 **CSS** (11 projects)
-- 🏆 **Shell** (10 projects)
-- 🏆 **Dockerfile** (9 projects)
+- 🏆 **HTML** (15 projects)
+- 🏆 **CSS** (12 projects)
+- 🏆 **Shell** (11 projects)
+- 🏆 **Dockerfile** (10 projects)
 - 🏆 **SCSS** (8 projects)
 - 🏆 **Serde** (6 projects)
 - ⭐ **Tokio** (4 projects)
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 47
-- 📝 **Total Lines of Code**: 1,331,340
+- 🗂️ **Total Repositories**: 48
+- 📝 **Total Lines of Code**: 1,423,921
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -94,19 +94,19 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 78.7%
+1. **Rust** - 77.5%
    ```
-   ███████████████████████████████████████░░░░░░░░░░░
+   ██████████████████████████████████████░░░░░░░░░░░░
    ```
 
-2. **Jupyter Notebook** - 9.7%
+2. **Jupyter Notebook** - 9.4%
    ```
    ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-3. **TypeScript** - 7.9%
+3. **TypeScript** - 9.4%
    ```
-   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+   ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
 4. **JavaScript** - 2.2%
@@ -123,11 +123,11 @@ Building the future, one commit at a time.
 
 ### 🏆 Top 5 Repositories
 
-1. **[SycamoreTest](https://github.com/alessandrobrunoh/SycamoreTest)** - ⭐ 1 | 🔱 0
-   - 💻 Language: Rust | 📝 Lines: 1,245
+1. **[KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api)** - ⭐ 1 | 🔱 2
+   - 💻 Language: Rust | 📝 Lines: 63,791
 
-2. **[KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api)** - ⭐ 1 | 🔱 2
-   - 💻 Language: Rust | 📝 Lines: 930
+2. **[SycamoreTest](https://github.com/alessandrobrunoh/SycamoreTest)** - ⭐ 1 | 🔱 0
+   - 💻 Language: Rust | 📝 Lines: 1,245
 
 3. **[Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test)** - ⭐ 1 | 🔱 0
    - 💻 Language: Rust | 📝 Lines: 881
@@ -146,6 +146,7 @@ Building the future, one commit at a time.
 |------------|-------|-------|----------|-------|
 | [Progetto-Big-Data](https://github.com/alessandrobrunoh/Progetto-Big-Data) | ⭐ 1 | 🔱 1 | Jupyter Notebook | 79,128 |
 | [Relazione-Sicurezza-Privacy](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy) | ⭐ 1 | 🔱 1 | TypeScript | 74,410 |
+| [KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api) | ⭐ 1 | 🔱 2 | Rust | 63,791 |
 | [Progetto-Machine-Learning](https://github.com/alessandrobrunoh/Progetto-Machine-Learning) | ⭐ 1 | 🔱 1 | Jupyter Notebook | 41,057 |
 | [KetchApp-Flutter](https://github.com/alessandrobrunoh/KetchApp-Flutter) | ⭐ 1 | 🔱 0 | Dart | 17,409 |
 | [Progetto-Fondamenti-Web](https://github.com/alessandrobrunoh/Progetto-Fondamenti-Web) | ⭐ 1 | 🔱 2 | CSS | 8,259 |
@@ -156,19 +157,19 @@ Building the future, one commit at a time.
 | [KetchApp-BFF](https://github.com/alessandrobrunoh/KetchApp-BFF) | ⭐ 1 | 🔱 0 | Java | 1,970 |
 | [SycamoreTest](https://github.com/alessandrobrunoh/SycamoreTest) | ⭐ 1 | 🔱 0 | Rust | 1,245 |
 | [KetchApp-Kafka](https://github.com/alessandrobrunoh/KetchApp-Kafka) | ⭐ 1 | 🔱 2 | Java | 934 |
-| [KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api) | ⭐ 1 | 🔱 2 | Rust | 930 |
 | [Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test) | ⭐ 1 | 🔱 0 | Rust | 881 |
 | [ReactTest](https://github.com/alessandrobrunoh/ReactTest) | ⭐ 1 | 🔱 0 | TypeScript | 282 |
 | [LeptosTest](https://github.com/alessandrobrunoh/LeptosTest) | ⭐ 1 | 🔱 0 | Rust | 273 |
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
 | [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 927,438 |
-| [vibe-kanban-jules](https://github.com/alessandrobrunoh/vibe-kanban-jules) | ⭐ 0 | 🔱 0 | None | 87,839 |
+| [vibe-kanban-jules](https://github.com/alessandrobrunoh/vibe-kanban-jules) | ⭐ 0 | 🔱 0 | Rust | 114,035 |
 | [EywaOS](https://github.com/alessandrobrunoh/EywaOS) | ⭐ 0 | 🔱 0 | Rust | 22,741 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
 | [Conclave-Review-Manager](https://github.com/alessandrobrunoh/Conclave-Review-Manager) | ⭐ 0 | 🔱 0 | Svelte | 11,068 |
 | [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
+| [openai-proxy-for-antigravity](https://github.com/alessandrobrunoh/openai-proxy-for-antigravity) | ⭐ 0 | 🔱 0 | TypeScript | 3,524 |
 | [tree-sitter-ftl](https://github.com/alessandrobrunoh/tree-sitter-ftl) | ⭐ 0 | 🔱 0 | C | 2,312 |
 | [Discord-Bot-Ruby](https://github.com/alessandrobrunoh/Discord-Bot-Ruby) | ⭐ 0 | 🔱 0 | None | 1,973 |
 | [alessandrobrunoh.github.io](https://github.com/alessandrobrunoh/alessandrobrunoh.github.io) | ⭐ 0 | 🔱 0 | SCSS | 1,305 |
@@ -194,4 +195,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2026-01-20 01:31:06
+🤖 This profile was automatically updated on 2026-01-21 01:42:55
