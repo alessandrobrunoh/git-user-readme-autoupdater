@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 48
-- 📝 **Total Lines of Code**: 1,423,921
+- 📝 **Total Lines of Code**: 1,361,060
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -123,11 +123,11 @@ Building the future, one commit at a time.
 
 ### 🏆 Top 5 Repositories
 
-1. **[KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api)** - ⭐ 1 | 🔱 2
-   - 💻 Language: Rust | 📝 Lines: 63,791
-
-2. **[SycamoreTest](https://github.com/alessandrobrunoh/SycamoreTest)** - ⭐ 1 | 🔱 0
+1. **[SycamoreTest](https://github.com/alessandrobrunoh/SycamoreTest)** - ⭐ 1 | 🔱 0
    - 💻 Language: Rust | 📝 Lines: 1,245
+
+2. **[KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api)** - ⭐ 1 | 🔱 2
+   - 💻 Language: Rust | 📝 Lines: 930
 
 3. **[Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test)** - ⭐ 1 | 🔱 0
    - 💻 Language: Rust | 📝 Lines: 881
@@ -146,7 +146,6 @@ Building the future, one commit at a time.
 |------------|-------|-------|----------|-------|
 | [Progetto-Big-Data](https://github.com/alessandrobrunoh/Progetto-Big-Data) | ⭐ 1 | 🔱 1 | Jupyter Notebook | 79,128 |
 | [Relazione-Sicurezza-Privacy](https://github.com/alessandrobrunoh/Relazione-Sicurezza-Privacy) | ⭐ 1 | 🔱 1 | TypeScript | 74,410 |
-| [KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api) | ⭐ 1 | 🔱 2 | Rust | 63,791 |
 | [Progetto-Machine-Learning](https://github.com/alessandrobrunoh/Progetto-Machine-Learning) | ⭐ 1 | 🔱 1 | Jupyter Notebook | 41,057 |
 | [KetchApp-Flutter](https://github.com/alessandrobrunoh/KetchApp-Flutter) | ⭐ 1 | 🔱 0 | Dart | 17,409 |
 | [Progetto-Fondamenti-Web](https://github.com/alessandrobrunoh/Progetto-Fondamenti-Web) | ⭐ 1 | 🔱 2 | CSS | 8,259 |
@@ -157,6 +156,7 @@ Building the future, one commit at a time.
 | [KetchApp-BFF](https://github.com/alessandrobrunoh/KetchApp-BFF) | ⭐ 1 | 🔱 0 | Java | 1,970 |
 | [SycamoreTest](https://github.com/alessandrobrunoh/SycamoreTest) | ⭐ 1 | 🔱 0 | Rust | 1,245 |
 | [KetchApp-Kafka](https://github.com/alessandrobrunoh/KetchApp-Kafka) | ⭐ 1 | 🔱 2 | Java | 934 |
+| [KetchApp-Auth-Api](https://github.com/alessandrobrunoh/KetchApp-Auth-Api) | ⭐ 1 | 🔱 2 | Rust | 930 |
 | [Tokio-TCP-Chat-Test](https://github.com/alessandrobrunoh/Tokio-TCP-Chat-Test) | ⭐ 1 | 🔱 0 | Rust | 881 |
 | [ReactTest](https://github.com/alessandrobrunoh/ReactTest) | ⭐ 1 | 🔱 0 | TypeScript | 282 |
 | [LeptosTest](https://github.com/alessandrobrunoh/LeptosTest) | ⭐ 1 | 🔱 0 | Rust | 273 |
@@ -195,4 +195,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2026-01-21 01:42:55
+🤖 This profile was automatically updated on 2026-01-22 01:41:57
