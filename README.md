@@ -8,23 +8,23 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 73.1% | 17 projects)
+#### 🦀 Rust (🏆 Expert - 74.1% | 17 projects)
 
 - **Backend:** Actix Web • Actix • Axum • Tokio
 - **Database:** Diesel
 - **Tools:** Serde • Clap • Rayon • Reqwest • Hyper
 
-#### 📓 Jupyter Notebook (📚 Familiar - 8.9% | 2 projects)
+#### 📓 Jupyter Notebook (📚 Familiar - 8.5% | 2 projects)
 
 
-#### ⚛️ TypeScript (🏆 Expert - 8.8% | 14 projects)
+#### ⚛️ TypeScript (🏆 Expert - 8.5% | 14 projects)
 
 - **Frontend:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
 - **Backend:** Express.js
 - **Styling:** Tailwind CSS
 
-#### 💛 JavaScript (🏆 Expert - 2.1% | 18 projects)
+#### 💛 JavaScript (🏆 Expert - 2.0% | 18 projects)
 
 - **Frontend Frameworks:** React • Angular • Svelte
 - **Meta Frameworks:** Next.js
@@ -32,7 +32,7 @@ Building the future, one commit at a time.
 - **Build Tools:** Webpack • Vite
 - **Testing:** Jest • Cypress
 
-#### ☕ Java (🏆 Expert - 1.4% | 5 projects)
+#### ☕ Java (🏆 Expert - 1.3% | 5 projects)
 
 - **Spring Ecosystem:** Spring Boot
 - **Enterprise:** JHipster • Hibernate
@@ -62,7 +62,7 @@ Building the future, one commit at a time.
 
 #### 🌐 Other Languages
 
-- 🎯 **Dart** (📚 1.2% | 1 project)
+- 🎯 **Dart** (📚 1.1% | 1 project)
 - 💎 **Ruby** (📚 0.0% | 1 project)
 - 🟣 **Kotlin** (📚 0.0% | 1 project)
 
@@ -86,7 +86,7 @@ Building the future, one commit at a time.
 ### 📈 Overview
 
 - 🗂️ **Total Repositories**: 48
-- 📝 **Total Lines of Code**: 1,361,060
+- 📝 **Total Lines of Code**: 1,416,943
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -94,27 +94,27 @@ Building the future, one commit at a time.
 
 ### 💻 Tech Stack / Languages
 
-1. **Rust** - 77.5%
+1. **Rust** - 78.5%
    ```
-   ██████████████████████████████████████░░░░░░░░░░░░
+   ███████████████████████████████████████░░░░░░░░░░░
    ```
 
-2. **Jupyter Notebook** - 9.4%
+2. **Jupyter Notebook** - 9.0%
    ```
    ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-3. **TypeScript** - 9.4%
+3. **TypeScript** - 9.0%
    ```
    ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-4. **JavaScript** - 2.2%
+4. **JavaScript** - 2.1%
    ```
    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
 
-5. **Java** - 1.5%
+5. **Java** - 1.4%
    ```
    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    ```
@@ -162,7 +162,7 @@ Building the future, one commit at a time.
 | [LeptosTest](https://github.com/alessandrobrunoh/LeptosTest) | ⭐ 1 | 🔱 0 | Rust | 273 |
 | [DioxusTest](https://github.com/alessandrobrunoh/DioxusTest) | ⭐ 1 | 🔱 0 | Rust | 245 |
 | [gpuiTest](https://github.com/alessandrobrunoh/gpuiTest) | ⭐ 1 | 🔱 0 | Rust | 22 |
-| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 927,438 |
+| [zed](https://github.com/alessandrobrunoh/zed) | ⭐ 0 | 🔱 0 | Rust | 983,321 |
 | [vibe-kanban-jules](https://github.com/alessandrobrunoh/vibe-kanban-jules) | ⭐ 0 | 🔱 0 | Rust | 114,035 |
 | [EywaOS](https://github.com/alessandrobrunoh/EywaOS) | ⭐ 0 | 🔱 0 | Rust | 22,741 |
 | [SpringBootJhipsterTest](https://github.com/alessandrobrunoh/SpringBootJhipsterTest) | ⭐ 0 | 🔱 0 | Java | 21,976 |
@@ -195,4 +195,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2026-02-03 02:02:15
+🤖 This profile was automatically updated on 2026-02-04 01:55:24
