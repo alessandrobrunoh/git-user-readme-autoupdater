@@ -8,7 +8,7 @@ Building the future, one commit at a time.
 
 ### ⭐ Primary Technologies
 
-#### 🦀 Rust (🏆 Expert - 74.1% | 17 projects)
+#### 🦀 Rust (🏆 Expert - 74.2% | 18 projects)
 
 - **Backend:** Actix Web • Actix • Axum • Tokio
 - **Database:** Diesel
@@ -85,8 +85,8 @@ Building the future, one commit at a time.
 
 ### 📈 Overview
 
-- 🗂️ **Total Repositories**: 48
-- 📝 **Total Lines of Code**: 1,416,943
+- 🗂️ **Total Repositories**: 49
+- 📝 **Total Lines of Code**: 1,420,476
 - ⭐ **Total Stars**: 18
 - 🔱 **Total Forks**: 10
 
@@ -170,12 +170,13 @@ Building the future, one commit at a time.
 | [Claude](https://github.com/alessandrobrunoh/Claude) | ⭐ 0 | 🔱 0 | TypeScript | 5,660 |
 | [tree-sitter-jdl](https://github.com/alessandrobrunoh/tree-sitter-jdl) | ⭐ 0 | 🔱 0 | C | 3,954 |
 | [openai-proxy-for-antigravity](https://github.com/alessandrobrunoh/openai-proxy-for-antigravity) | ⭐ 0 | 🔱 0 | TypeScript | 3,524 |
+| [pandora-rs](https://github.com/alessandrobrunoh/pandora-rs) | ⭐ 0 | 🔱 0 | Rust | 2,442 |
 | [tree-sitter-ftl](https://github.com/alessandrobrunoh/tree-sitter-ftl) | ⭐ 0 | 🔱 0 | C | 2,312 |
+| [gpui_devtools](https://github.com/alessandrobrunoh/gpui_devtools) | ⭐ 0 | 🔱 0 | Rust | 2,029 |
 | [Discord-Bot-Ruby](https://github.com/alessandrobrunoh/Discord-Bot-Ruby) | ⭐ 0 | 🔱 0 | None | 1,973 |
 | [alessandrobrunoh.github.io](https://github.com/alessandrobrunoh/alessandrobrunoh.github.io) | ⭐ 0 | 🔱 0 | SCSS | 1,305 |
 | [git-user-readme-autoupdater](https://github.com/alessandrobrunoh/git-user-readme-autoupdater) | ⭐ 0 | 🔱 0 | Python | 1,208 |
 | [Gemini](https://github.com/alessandrobrunoh/Gemini) | ⭐ 0 | 🔱 0 | TypeScript | 1,167 |
-| [gpui_devtools](https://github.com/alessandrobrunoh/gpui_devtools) | ⭐ 0 | 🔱 0 | Rust | 938 |
 | [Jhipster-for-Rust-BackEnd](https://github.com/alessandrobrunoh/Jhipster-for-Rust-BackEnd) | ⭐ 0 | 🔱 0 | Rust | 862 |
 | [DevTaskTracker](https://github.com/alessandrobrunoh/DevTaskTracker) | ⭐ 0 | 🔱 0 | TypeScript | 663 |
 | [test-app](https://github.com/alessandrobrunoh/test-app) | ⭐ 0 | 🔱 0 | TypeScript | 534 |
@@ -195,4 +196,4 @@ Building the future, one commit at a time.
 
 ---
 
-🤖 This profile was automatically updated on 2026-02-05 01:58:58
+🤖 This profile was automatically updated on 2026-02-06 01:56:10
